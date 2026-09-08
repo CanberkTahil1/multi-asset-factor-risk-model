@@ -1,0 +1,20 @@
+ 1 Agric  Agriculture
+          0100-0199 Agricultural production - crops
+          0200-0299 Agricultural production - livestock
+          2048-2048 Prepared feeds for animals
+
+ 2 Food   Food Products
+          2000-2009 Food and kindred products
+          2010-2019 Meat products
+
+ 3 Oil    Petroleum and Natural Gas
+          1300-1300 Oil and gas extraction
+          1310-1319 Crude petroleum & natural gas
+          2900-2912 Petroleum refining
+
+ 4 Fin    Trading
+          6200-6299 Security and commodity brokers, dealers, exchanges & services
+          6798-6798 REIT
+
+ 5 Other  Almost Nothing
+          4950-4959 Sanitary services

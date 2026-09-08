@@ -1,0 +1,6 @@
+{"taxonomy":"dei","tag":"EntityCommonStockSharesOutstanding","ccp":"CY2020Q1I","uom":"shares","label":"Entity Common Stock, Shares Outstanding","description":"fixture","pts":4,"data":[
+{"accn":"0000000001-20-000001","cik":1001,"entityName":"ALPHA INC","loc":"US-DE","end":"2020-01-20","val":100},
+{"accn":"0000000002-20-000002","cik":1002,"entityName":"BRAVO HOLDINGS CORP /DE/","loc":"US-NY","end":"2020-01-31","val":50},
+{"accn":"0000000003-20-000003","cik":1003,"entityName":"WYETH","loc":"US-NJ","end":"2020-02-05","val":1},
+{"accn":"0000000009-20-000009","cik":1009,"entityName":"ORPHAN FILER","loc":"US-CA","end":"2020-02-10","val":7}
+]}

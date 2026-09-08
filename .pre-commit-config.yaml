@@ -1,0 +1,28 @@
+# Pre-commit hooks (SPEC.md 11, "small things that signal seriousness").
+#   pre-commit install        # once per clone
+# These are the fast checks; `make test` (ruff + mypy + pytest) is the commit
+# gate and is run by hand at the end of a session, never squeezed into a hook.
+# Versions are pinned to what uv.lock resolves so the hook and the CLI agree.
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.5
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.9.1
+    hooks:
+      - id: nbstripout
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-added-large-files
+        # Raw data is gitignored (CLAUDE.md invariant 8); this catches a stray
+        # parquet or a report figure that grew past what a reader should clone.
+        args: [--maxkb=2048]
+      - id: detect-private-key
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+        exclude: \.md$

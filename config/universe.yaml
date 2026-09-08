@@ -1,0 +1,253 @@
+# =============================================================================
+# config/universe.yaml -- the frozen investable universe.
+#
+# SPEC.md 3.1: freeze this, dated, with a written rationale per line, BEFORE any
+# backtest runs. The universe is hand-selected and survivorship-biased by
+# construction; that fact must be stated in the README rather than hand-waved.
+#
+# Fourteen instruments spanning equity, duration, inflation, credit, commodity
+# and dollar risk -- chosen so that the six macro factors of Model A (SPEC.md
+# 4.1) are each spanned by more than one instrument, which is what makes the
+# cross-sectional factor regression identified rather than merely fitted.
+#
+# THREE SPLICES MAXIMUM (SPEC.md 3.1). Two are used, both marked `splice: true`
+# below and both labelled reconstructions everywhere they appear:
+#   ig_credit        LQD, extended pre-2002 by a Moody's-based model
+#   commodity        DBC, spliced to the AQR Commodities Long Run index pre-2006
+# The third slot is deliberately left unspent.
+# =============================================================================
+
+schema_version: 1
+
+# Date this universe was frozen. Changing the asset list after this date is a
+# new universe and needs a new frozen_date, a note in experiments.md, and a
+# re-run of everything downstream.
+frozen_date: "2026-08-25"
+
+# The headline backtest window starts here; see sample.start in model.yaml.
+# Driven by HYG's 2007 inception -- the naive ETF-only common start.
+common_start: "2007-04-01"
+
+assets:
+  # ---------------------------------------------------------------------------
+  # Equity
+  # ---------------------------------------------------------------------------
+  - id: us_large_equity
+    ticker: SPY
+    sleeve: equity
+    construction: etf_total_return
+    source: yfinance
+    history_start: "1993-01-29"
+    splice: false
+    rationale: >-
+      The equity risk-premium anchor and the market factor's primary loading;
+      the most liquid instrument in the sleeve, so it sets the floor against
+      which every other asset's estimated spread is judged.
+
+  - id: us_small_equity
+    ticker: IWM
+    sleeve: equity
+    construction: etf_total_return
+    source: yfinance
+    history_start: "2000-05-26"
+    splice: false
+    rationale: >-
+      Separates size from broad equity beta, and is the sleeve's genuinely
+      cost-sensitive equity line -- wide enough spreads that the cost term of
+      the identity is measurable rather than rounding error.
+
+  - id: dev_ex_us_equity
+    ticker: EFA
+    sleeve: equity
+    construction: etf_total_return
+    source: yfinance
+    # DECLARED value, frozen 2026-08-25 and NOT changed. Yahoo's first printable
+    # bar is 2001-08-27, ten days later (measured W1-P4, recorded in
+    # reports/data_contracts.md). The gap is the vendor's, not the fund's, and
+    # nothing downstream depends on the declared date: the contract test gates
+    # on the sleeve's effective common start, which is HYG's, not on this.
+    history_start: "2001-08-17"
+    splice: false
+    rationale: >-
+      Supplies the non-USD developed equity exposure that lets the dollar factor
+      be identified separately from global equity beta.
+
+  - id: em_equity
+    ticker: EEM
+    sleeve: equity
+    construction: etf_total_return
+    source: yfinance
+    history_start: "2003-04-14"
+    splice: false
+    rationale: >-
+      The sleeve's highest-beta and highest-cost equity line; EM is where the
+      growth and dollar factors load together, which is precisely the regime the
+      covariance matrix is most optimistically wrong about.
+
+  # ---------------------------------------------------------------------------
+  # Nominal government duration -- synthetic, from the Fed's fitted zero curve
+  # ---------------------------------------------------------------------------
+  # SPEC.md 3.2. Four constant-maturity points on one curve, built from the same
+  # Svensson parameters, so the level/slope/curvature structure of the term
+  # structure is spanned rather than approximated by a single duration ETF.
+  # Daily total return includes the roll-down: evaluate the curve at (n - 1/252)
+  # on day t+1, not at n.
+  #
+  # HISTORY IS PER TENOR, NOT 1961 FOR ALL FOUR. The Fed publishes a fitted
+  # yield only out to the longest bond outstanding on the day: 2y and 5y from
+  # 1961-06-14, 10y from 1971-08-16, 30y from 1985-11-25. Each history_start
+  # below is that date, and tests/test_gsw.py pins them against the file.
+  - id: govt_2y
+    ticker: null
+    sleeve: government
+    construction: synthetic_gsw_zero_curve
+    source: federal_reserve_feds200628
+    maturity_years: 2.0
+    history_start: "1961-06-14"
+    splice: false
+    rationale: >-
+      The front end, dominated by policy expectations rather than term premium;
+      with the 30y it pins down the slope factor that a single bond ETF hides.
+
+  - id: govt_5y
+    ticker: null
+    sleeve: government
+    construction: synthetic_gsw_zero_curve
+    source: federal_reserve_feds200628
+    maturity_years: 5.0
+    history_start: "1961-06-14"
+    splice: false
+    rationale: >-
+      The belly of the curve, and the maturity point where curvature loads most
+      strongly against a 2y/30y barbell.
+
+  - id: govt_10y
+    ticker: null
+    sleeve: government
+    construction: synthetic_gsw_zero_curve
+    source: federal_reserve_feds200628
+    maturity_years: 10.0
+    # CORRECTED 2026-08-26 (was "1961-06-14"). The Svensson parameters evaluate
+    # at any maturity, but the Fed publishes SVENY10 only from this date --
+    # before it there was no outstanding bond long enough to fit against, and a
+    # 10y point read off a curve fitted to <=7y paper is extrapolation, not
+    # observation. mafrm.data.gsw masks each tenor to its published dates.
+    history_start: "1971-08-16"
+    splice: false
+    rationale: >-
+      The global duration benchmark and the natural nominal leg of the
+      breakeven-inflation factor formed against TIPS 10y.
+
+  - id: govt_30y
+    ticker: null
+    sleeve: government
+    construction: synthetic_gsw_zero_curve
+    source: federal_reserve_feds200628
+    maturity_years: 30.0
+    # CORRECTED 2026-08-26 (was "1961-06-14"). SVENY30 begins here; the 30y bond
+    # was not issued continuously before it. See the note on govt_10y.
+    history_start: "1985-11-25"
+    splice: false
+    rationale: >-
+      Maximum duration and the cleanest read on the term premium; also the
+      series whose roll-down error is largest, making it the unit test that
+      catches a mis-specified constant-maturity return.
+
+  # ---------------------------------------------------------------------------
+  # Inflation
+  # ---------------------------------------------------------------------------
+  - id: tips_10y
+    ticker: null
+    sleeve: inflation
+    construction: synthetic_tips_real_curve
+    source: federal_reserve_feds200805
+    maturity_years: 10.0
+    history_start: "1999-01-04"
+    splice: false
+    rationale: >-
+      The only real-yield instrument in the sleeve; nominal 10y minus this gives
+      a clean breakeven-inflation factor for free, which is what separates a
+      rates shock from an inflation shock in the 2022 window.
+
+  # ---------------------------------------------------------------------------
+  # Credit
+  # ---------------------------------------------------------------------------
+  - id: ig_credit
+    ticker: LQD
+    sleeve: credit
+    construction: etf_total_return_with_moodys_extension
+    source: yfinance + fred_AAA_BAA
+    history_start: "2002-07-30"
+    splice: true
+    splice_note: >-
+      Pre-2002 history is a MODEL, not data: Moody's seasoned Aaa/Baa yields on
+      FRED (monthly from 1919, not subject to the April 2026 ICE truncation),
+      with excess return reconstructed as (OAS/12) - SD*dOAS - expected_loss.
+      Must be labelled a reconstruction wherever it appears.
+    rationale: >-
+      Investment-grade credit is the sleeve's duration-plus-spread hybrid, and
+      the orthogonalization of its spread component against equity is the
+      failure mode CLAUDE.md ranks second -- so it has to be in the universe for
+      that orthogonalization to be testable at all.
+
+  - id: hy_credit
+    ticker: HYG
+    sleeve: credit
+    construction: etf_total_return
+    source: yfinance
+    history_start: "2007-04-11"
+    splice: false
+    rationale: >-
+      The binding constraint on the headline window and the sleeve's clearest
+      crisis asset: spread and spread-cost both blow out together, which is the
+      joint behaviour hypothesis H5 is about.
+
+  # ---------------------------------------------------------------------------
+  # Real assets
+  # ---------------------------------------------------------------------------
+  - id: commodity
+    ticker: DBC
+    sleeve: commodity
+    construction: etf_total_return_with_aqr_clr_splice
+    source: yfinance + aqr_commodities_long_run
+    # DECLARED value, frozen 2026-08-25 and NOT changed. Yahoo's first printable
+    # bar is 2006-02-06, the following Monday. See the note on `dev_ex_us_equity`.
+    history_start: "2006-02-03"
+    splice: true
+    splice_note: >-
+      Pre-2006 history spliced to the AQR Commodities Long Run index (1877-).
+      AQR data is not redistributable and is never committed (invariant 8);
+      only the manifest entry is.
+    rationale: >-
+      Broad commodities carry the growth-and-inflation-together exposure that
+      nothing else in the sleeve provides, and the long-run splice is what makes
+      the pre-2007 sensitivity run possible.
+
+  - id: gold
+    ticker: GLD
+    sleeve: commodity
+    construction: etf_total_return
+    source: yfinance
+    history_start: "2004-11-18"
+    splice: false
+    rationale: >-
+      Held separately from broad commodities because gold's factor loadings are
+      real-rate and dollar rather than growth; collapsing the two would leave
+      the real-rate factor under-identified.
+
+  # ---------------------------------------------------------------------------
+  # Currency
+  # ---------------------------------------------------------------------------
+  - id: dollar
+    ticker: DTWEXBGS
+    sleeve: currency
+    construction: fred_index_level
+    source: fred
+    history_start: "2006-01-02"
+    splice: false
+    rationale: >-
+      The trade-weighted broad dollar index is an index level, not a tradable
+      total return, so it enters as a factor-construction input only and is
+      excluded from the optimizer's investable set -- stated here so that the
+      exclusion is a documented property of the universe rather than a quirk of
+      the backtest code.

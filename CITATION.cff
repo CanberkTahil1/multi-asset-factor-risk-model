@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Multi-asset factor risk model with a cost-aware implementation layer"
+abstract: >-
+  Two factor risk models -- a macro multi-asset model and a cross-sectional
+  equity model -- sharing one asset-class-agnostic covariance pipeline (EWMA with
+  separated half-lives, Newey-West, eigenfactor risk adjustment, volatility
+  regime adjustment, specific risk), wrapped in a cost-aware convex optimizer
+  with a time-varying, empirically calibrated transaction-cost model. It
+  decomposes the gap between a model portfolio's paper and realised Sharpe ratio
+  into a risk-model term and a cost term, and contrasts the two panels to
+  separate specification error from estimation error in the bias statistic.
+  Reproducible from free data through a committed manifest.
+authors:
+  - family-names: Tahil
+    given-names: Canberk
+repository-code: "https://github.com/CanberkTahil1/multi-asset-factor-risk-model"
+license: MIT
+version: 0.1.0
+date-released: "2026-09-03"
+keywords:
+  - factor risk model
+  - transaction costs
+  - portfolio optimization
+  - bias statistic
+  - reproducible research

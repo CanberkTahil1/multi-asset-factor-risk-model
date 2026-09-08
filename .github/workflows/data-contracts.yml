@@ -1,0 +1,86 @@
+# Weekly data-contract check against LIVE sources.
+#
+# This is the workflow that proves the pipeline still works six months after
+# the last commit. It is expected to fail occasionally and that is the point:
+# a vendor changing a column name, FRED truncating a series (as ICE did in
+# April 2026), or yfinance shipping another breaking patch release should
+# surface here rather than silently in a backtest.
+#
+# Wednesdays: the Fed's GSW yield-curve file (feds200628) is refreshed on
+# Tuesdays through the prior Friday, so Wednesday sees a settled file.
+name: data-contracts
+
+# SCHEDULE DISABLED for the public snapshot (W8-P4c). This lane has never
+# passed and cannot until two Actions secrets exist (FRED_API_KEY,
+# SEC_EDGAR_USER_AGENT) and a decision is taken about three AQR recency
+# contracts that are stale BY DESIGN -- noticing that an upstream source
+# stopped updating is what this workflow is for. A permanently red scheduled
+# badge would undermine the README section that exists to be precise about
+# exactly this, so the lane is kept, documented, and run on demand.
+# Restore by uncommenting the schedule once the secrets are set.
+on:
+  # schedule:
+  #   - cron: "17 7 * * 3"   # Wednesdays: the GSW file is settled by then
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        run: uv python install 3.12
+
+      - name: Install project
+        run: uv sync --extra dev --python 3.12
+
+      # The contract suite reads the cache, so the cache has to exist. A source
+      # being down must not stop the others from refreshing, so `make data`
+      # reports per-source failures and exits non-zero; the contract tests then
+      # SKIP for whatever is missing and still run for everything else.
+      #
+      # Needs FRED_API_KEY as a repository secret. Without it the FRED loaders
+      # fail here and the FRED contract tests skip -- which is the honest
+      # outcome, not a silent pass. SEC_EDGAR_USER_AGENT likewise (W7-P2a,
+      # SPEC.md 15.4.1): EDGAR's fair-access policy requires a User-Agent
+      # naming the requester and a contact; without it the EDGAR loader is
+      # recorded as a failure by name and nothing is cached for it.
+      - name: make data
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          SEC_EDGAR_USER_AGENT: ${{ secrets.SEC_EDGAR_USER_AGENT }}
+        run: make data
+        continue-on-error: true
+
+      # `dataset` tests assert on the shape of what came back -- expected
+      # columns, no all-NaN columns, no duplicate dates, a shared trading
+      # calendar, ALFRED vintage coverage, and recency ("AQR data ends within 90
+      # days of today"). `network` is included for any test that must fetch
+      # directly. Neither runs in the fast workflow.
+      #
+      # KNOWN RED as of 2026-08-29: all three AQR recency assertions fail
+      # (tsmom 92 days, century_of_factor_premia 183, commodities_long_run 456)
+      # against the 90-day limit. The limit is deliberately not widened -- see
+      # experiments.md, W1-P4. This is the workflow whose job is to notice that
+      # an upstream source changed, so this is where that belongs.
+      - name: pytest (data contracts)
+        run: uv run pytest -m "network or dataset" -v || [ $? -eq 5 ]
+
+      - name: Regenerate reports/data_contracts.md
+        run: uv run python -m mafrm.data.contract_report
+        continue-on-error: true
+
+      - name: Manifest re-hash
+        run: make verify
+        continue-on-error: true

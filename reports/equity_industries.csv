@@ -1,0 +1,859 @@
+ticker,sic_current,industry_current,first_10k_accession,first_10k_filed,first_10k_cik,sic_first,industry_first,first_status,sic_differs,industry_differs,cik,sic_description,status
+A,3826,38,0001047469-07-010272,2007-12-21,1090872.0,3825,38,ok,True,False,1090872.0,Laboratory Analytical Instruments,ok
+AA,,,,,,,,,,,,,no_cik
+AAL,4512,41,0000004515-08-000014,2008-02-20,6201.0,4512,41,ok,False,False,6201.0,"Air Transportation, Scheduled",ok
+AAP,5531,43,0001158449-08-000043,2008-02-27,1158449.0,5531,43,ok,False,False,1158449.0,Retail-Auto & Home Supply Stores,ok
+AAPL,3571,35,0001047469-07-009340,2007-11-15,320193.0,3571,35,ok,False,False,320193.0,Electronic Computers,ok
+ABBV,2834,13,0001047469-13-002827,2013-03-15,1551152.0,2834,13,ok,False,False,1551152.0,Pharmaceutical Preparations,ok
+ABK,,,,,,,,,,,,,no_cik
+ABMD,3841,12,0001193125-07-134975,2007-06-13,815094.0,3841,12,ok,False,False,815094.0,Surgical & Medical Instruments & Apparatus,ok
+ABNB,7340,34,0001559720-21-000010,2021-02-26,1559720.0,7340,34,ok,False,False,1559720.0,Services-To Dwellings & Other Buildings,ok
+ABS,,,,,,,,,,,,,no_cik
+ABT,2834,13,0001047469-08-001480,2008-02-19,1800.0,2834,13,ok,False,False,1800.0,Pharmaceutical Preparations,ok
+ACAS,,,0001193125-08-043109,2008-02-29,817473.0,,,no_sic_in_header,,,817473.0,,no_sic
+ACE,,,,,,,,,,,,,no_cik
+ACGL,6331,46,0001047469-08-002070,2008-02-29,947484.0,6331,46,ok,False,False,947484.0,"Fire, Marine & Casualty Insurance",ok
+ACN,7389,34,0001193125-09-209671,2009-10-19,1467373.0,7389,34,ok,False,False,1467373.0,"Services-Business Services, NEC",ok
+ADBE,7372,36,0001047469-08-000497,2008-01-24,796343.0,7372,36,ok,False,False,796343.0,Services-Prepackaged Software,ok
+ADCT,,,,,,,,,,,,,no_cik
+ADI,3674,37,0000950135-07-007253,2007-11-30,6281.0,3674,37,ok,False,False,6281.0,Semiconductors & Related Devices,ok
+ADM,2070,2,0000007084-07-000166,2007-08-27,7084.0,2070,2,ok,False,False,7084.0,Fats & Oils,ok
+ADP,7374,34,0001206774-07-002085,2007-08-29,8670.0,7374,34,ok,False,False,8670.0,Services-Computer Processing & Data Preparation,ok
+ADS,6141,45,0001193125-08-041317,2008-02-28,1101215.0,7389,34,ok,True,True,1101215.0,Personal Credit Institutions,ok
+ADSK,7372,36,0001193125-07-128970,2007-06-04,769397.0,7372,36,ok,False,False,769397.0,Services-Prepackaged Software,ok
+ADT,,,,,,,,,,,,,no_cik
+AEE,4931,31,0000950137-08-003079,2008-02-29,1002910.0,4931,31,ok,False,False,1002910.0,Electric & Other Services Combined,ok
+AEP,4911,31,0000004904-08-000022,2008-02-28,4904.0,4911,31,ok,False,False,4904.0,Electric Services,ok
+AES,4991,49,0001104659-07-042479,2007-05-23,874761.0,4991,49,ok,False,False,874761.0,Cogeneration Services & Small Power Producers,ok
+AET,6324,46,0001122304-08-000034,2008-02-29,1122304.0,6324,46,ok,False,False,1122304.0,Hospital & Medical Service Plans,ok
+AFL,6321,46,0000950144-08-001495,2008-02-29,4977.0,6321,46,ok,False,False,4977.0,Accident & Health Insurance,ok
+AGN,,,,,,,,,,,,,no_cik
+AIG,6331,46,0000950123-08-002280,2008-02-28,5272.0,6331,46,ok,False,False,5272.0,"Fire, Marine & Casualty Insurance",ok
+AIV,,,,,,,,,,,,,no_cik
+AIZ,6399,46,0001193125-08-044379,2008-03-03,1267238.0,6321,46,ok,True,False,1267238.0,"Insurance Carriers, NEC",ok
+AJG,6411,46,0001193125-08-018228,2008-02-04,354190.0,6411,46,ok,False,False,354190.0,"Insurance Agents, Brokers & Service",ok
+AKAM,7389,34,0001193125-08-043671,2008-02-29,1086222.0,7389,34,ok,False,False,1086222.0,"Services-Business Services, NEC",ok
+AKS,,,,,,,,,,,,,no_cik
+ALB,2821,14,0001193125-08-042183,2008-02-29,915913.0,2821,14,ok,False,False,915913.0,"Plastic Materials, Synth Resins & Nonvulcan Elastomers",ok
+ALGN,3842,12,0001047469-08-001750,2008-02-26,1097149.0,3842,12,ok,False,False,1097149.0,"Orthopedic, Prosthetic & Surgical Appliances & Supplies",ok
+ALK,4512,41,0001193125-08-034506,2008-02-20,766421.0,4512,41,ok,False,False,766421.0,"Air Transportation, Scheduled",ok
+ALL,6331,46,0001047469-08-001846,2008-02-27,899051.0,6331,46,ok,False,False,899051.0,"Fire, Marine & Casualty Insurance",ok
+ALLE,7381,34,0001579241-14-000007,2014-03-10,1579241.0,7381,34,ok,False,False,1579241.0,"Services-Detective, Guard & Armored Car Services",ok
+ALTR,3674,37,0001193125-08-037607,2008-02-25,768251.0,3674,37,ok,False,False,768251.0,Semiconductors & Related Devices,ok
+ALXN,2834,13,0001193125-08-043592,2008-02-29,899866.0,2834,13,ok,False,False,899866.0,Pharmaceutical Preparations,ok
+AMAT,3674,37,0000891618-07-000682,2007-12-14,6951.0,3674,37,ok,False,False,6951.0,Semiconductors & Related Devices,ok
+AMCR,3990,49,0001748790-19-000003,2019-09-03,1748790.0,3990,49,ok,False,False,1748790.0,Miscellaneous Manufacturing Industries,ok
+AMD,3674,37,0001193125-08-038588,2008-02-26,2488.0,3674,37,ok,False,False,2488.0,Semiconductors & Related Devices,ok
+AME,3823,38,0000893220-08-000535,2008-02-27,1037868.0,3621,22,ok,True,True,1037868.0,"Industrial Instruments For Measurement, Display, and Control",ok
+AMG,6282,48,0001047469-08-002079,2008-02-29,1004434.0,6282,48,ok,False,False,1004434.0,Investment Advice,ok
+AMGN,2836,13,0001193125-08-040431,2008-02-28,318154.0,2836,13,ok,False,False,318154.0,"Biological Products, (No Diagnostic Substances)",ok
+AMP,6282,48,0001047469-08-002027,2008-02-29,820027.0,6282,48,ok,False,False,820027.0,Investment Advice,ok
+AMT,6798,48,0001193125-08-057075,2008-03-14,1053507.0,4899,32,ok,True,True,1053507.0,Real Estate Investment Trusts,ok
+AMTM,,,,,,,,,,,,,no_cik
+AMZN,5961,43,0001193125-08-024707,2008-02-11,1018724.0,5961,43,ok,False,False,1018724.0,Retail-Catalog & Mail-Order Houses,ok
+AN,5500,43,0000950144-08-001449,2008-02-28,350698.0,5500,43,ok,False,False,350698.0,Retail-Auto Dealers & Gasoline Stations,ok
+ANDV,2911,30,0000950134-08-003806,2008-02-29,50104.0,2911,30,ok,False,False,50104.0,Petroleum Refining,ok
+ANET,3576,35,0001596532-15-000004,2015-03-12,1596532.0,3576,35,ok,False,False,1596532.0,Computer Communications Equipment,ok
+ANF,5651,43,0000950152-08-002415,2008-03-28,1018840.0,5651,43,ok,False,False,1018840.0,Retail-Family Clothing Stores,ok
+ANR,,,,,,,,,,,,,no_cik
+ANSS,7372,36,0001193125-08-041214,2008-02-28,1013462.0,7372,36,ok,False,False,1013462.0,Services-Prepackaged Software,ok
+AON,6411,46,0001047469-08-001929,2008-02-28,315293.0,6321,46,ok,True,False,315293.0,"Insurance Agents, Brokers & Service",ok
+AOS,3630,9,0001193125-08-034592,2008-02-20,91142.0,3621,22,ok,True,True,91142.0,Household Appliances,ok
+APA,1311,30,0001784031-22-000009,2022-02-22,1841666.0,1311,30,ok,False,False,1841666.0,Crude Petroleum & Natural Gas,ok
+APC,1311,30,0001193125-08-042186,2008-02-29,773910.0,1311,30,ok,False,False,773910.0,Crude Petroleum & Natural Gas,ok
+APD,2810,14,0000950123-07-016020,2007-11-28,2969.0,2810,14,ok,False,False,2969.0,Industrial Inorganic Chemicals,ok
+APH,3678,37,0001104659-08-012896,2008-02-26,820313.0,3678,37,ok,False,False,820313.0,Electronic Connectors,ok
+APO,6282,48,0001858681-23-000007,2023-03-01,1858681.0,6282,48,ok,False,False,1858681.0,Investment Advice,ok
+APOL,8200,33,0000950153-07-001195,2007-05-22,929887.0,8200,33,ok,False,False,929887.0,Services-Educational Services,ok
+APP,7370,36,0001751008-22-000005,2022-03-11,1751008.0,7370,36,ok,False,False,1751008.0,"Services-Computer Programming, Data Processing, Etc.",ok
+APTV,3714,23,0001193125-12-067225,2012-02-17,1521332.0,3714,23,ok,False,False,1521332.0,Motor Vehicle Parts & Accessories,ok
+ARE,6798,48,0001104659-08-013937,2008-02-29,1035443.0,6798,48,ok,False,False,1035443.0,Real Estate Investment Trusts,ok
+ARES,6282,48,0001047469-15-002528,2015-03-20,1176948.0,6282,48,ok,False,False,1176948.0,Investment Advice,ok
+ARG,5084,42,0000893220-07-002057,2007-05-30,804212.0,5084,42,ok,False,False,804212.0,Wholesale-Industrial Machinery & Equipment,ok
+ARNC,,,,,,,,,,,,,no_cik
+ATI,3317,19,0000950152-08-001416,2008-02-26,1018963.0,3317,19,ok,False,False,1018963.0,Steel Pipe & Tubes,ok
+ATO,4924,31,0000950134-07-024659,2007-11-29,731802.0,4924,31,ok,False,False,731802.0,Natural Gas Distribution,ok
+ATVI,7372,36,0001104659-07-047752,2007-06-14,718877.0,7372,36,ok,False,False,718877.0,Services-Prepackaged Software,ok
+AV,3661,37,0001193125-10-275681,2010-12-07,1116521.0,3661,37,ok,False,False,1116521.0,Telephone & Telegraph Apparatus,ok
+AVB,6798,48,0000950133-08-000889,2008-02-29,915912.0,6798,48,ok,False,False,915912.0,Real Estate Investment Trusts,ok
+AVGO,3674,37,0001730168-18-000084,2018-12-21,1730168.0,3674,37,ok,False,False,1730168.0,Semiconductors & Related Devices,ok
+AVP,2844,9,0001193125-08-034912,2008-02-21,8868.0,2844,9,ok,False,False,8868.0,"Perfumes, Cosmetics & Other Toilet Preparations",ok
+AVY,2670,39,0000950134-08-003581,2008-02-27,8818.0,2670,39,ok,False,False,8818.0,Converted Paper & Paperboard Prods (No Contaners/Boxes),ok
+AWK,4941,31,0001193125-09-040650,2009-02-27,1410636.0,4941,31,ok,False,False,1410636.0,Water Supply,ok
+AXON,3480,26,0000950153-08-000423,2008-02-29,1069183.0,3480,26,ok,False,False,1069183.0,"Ordnance & Accessories, (No Vehicles/Guided Missiles)",ok
+AXP,6199,45,0001193125-08-042043,2008-02-28,4962.0,6199,45,ok,False,False,4962.0,Finance Services,ok
+AYE,4911,31,0001193125-08-040224,2008-02-27,3673.0,4911,31,ok,False,False,3673.0,Electric Services,ok
+AYI,3640,22,0001193125-07-229796,2007-10-30,1144215.0,5160,42,ok,True,True,1144215.0,Electric Lighting & Wiring Equipment,ok
+AZO,5531,43,0001144204-07-055597,2007-10-22,866787.0,5531,43,ok,False,False,866787.0,Retail-Auto & Home Supply Stores,ok
+BA,3721,24,0001193125-08-032328,2008-02-15,12927.0,3721,24,ok,False,False,12927.0,Aircraft,ok
+BAC,6021,45,0001193125-08-041665,2008-02-28,70858.0,6021,45,ok,False,False,70858.0,National Commercial Banks,ok
+BALL,3411,40,0000009389-08-000054,2008-02-25,9389.0,3411,40,ok,False,False,9389.0,Metal Cans,ok
+BAX,3841,12,0000950137-08-002771,2008-02-26,10456.0,3841,12,ok,False,False,10456.0,Surgical & Medical Instruments & Apparatus,ok
+BBBY,5700,43,0001104659-07-034862,2007-05-02,886158.0,5700,43,ok,False,False,886158.0,"Retail-Home Furniture, Furnishings & Equipment Stores",ok
+BBWI,5990,43,0001193125-07-073368,2007-04-03,701985.0,5621,43,ok,True,False,701985.0,"Retail-Retail Stores, NEC",ok
+BBY,5731,43,0001104659-07-034935,2007-05-02,764478.0,5731,43,ok,False,False,764478.0,"Retail-Radio, Tv & Consumer Electronics Stores",ok
+BC,3510,21,0000014930-08-000028,2008-02-22,14930.0,3510,21,ok,False,False,14930.0,Engines & Turbines,ok
+BCR,,,,,,,,,,,,,no_cik
+BDX,3841,12,0000930413-07-008926,2007-11-23,10795.0,3841,12,ok,False,False,10795.0,Surgical & Medical Instruments & Apparatus,ok
+BEAM,,,,,,,,,,,,,no_cik
+BEN,6282,48,0001193125-07-255169,2007-11-29,38777.0,6282,48,ok,False,False,38777.0,Investment Advice,ok
+BF-B,2080,4,0000014693-07-000066,2007-06-28,14693.0,2080,4,ok,False,False,14693.0,Beverages,ok
+BG,2070,2,0001996862-24-000007,2024-02-22,1996862.0,2070,2,ok,False,False,1996862.0,Fats & Oils,ok
+BHF,6311,46,0001167609-18-000005,2018-03-16,1685040.0,6311,46,ok,False,False,1685040.0,Life Insurance,ok
+BHI,,,,,,,,,,,,,no_cik
+BIG,5331,43,0001206774-07-000893,2007-04-04,768835.0,5331,43,ok,False,False,768835.0,Retail-Variety Stores,ok
+BIIB,2836,13,0000950135-08-001029,2008-02-14,875045.0,2836,13,ok,False,False,875045.0,"Biological Products, (No Diagnostic Substances)",ok
+BIO,3826,38,0000012208-08-000008,2008-02-29,12208.0,3826,38,ok,False,False,12208.0,Laboratory Analytical Instruments,ok
+BJS,1389,30,0001193125-07-256094,2007-11-29,864328.0,1389,30,ok,False,False,864328.0,"Oil & Gas Field Services, NEC",ok
+BKNG,4700,41,0001104659-08-014464,2008-03-03,1075531.0,7389,34,ok,True,True,1075531.0,Transportation Services,ok
+BKR,3533,21,0001701605-18-000029,2018-02-23,1701605.0,3533,21,ok,False,False,1701605.0,Oil & Gas Field Machinery & Equipment,ok
+BLDR,5211,43,0000950134-08-004136,2008-03-05,1316835.0,5211,43,ok,False,False,1316835.0,Retail-Lumber & Other Building Materials Dealers,ok
+BLK,6211,48,0000950170-25-026584,2025-02-25,2012383.0,6211,48,ok,False,False,2012383.0,"Security Brokers, Dealers & Flotation Companies",ok
+BMC,7372,36,0001362310-07-000954,2007-05-30,835729.0,7372,36,ok,False,False,835729.0,Services-Prepackaged Software,ok
+BMS,2670,39,0001104659-08-014023,2008-02-29,11199.0,2670,39,ok,False,False,11199.0,Converted Paper & Paperboard Prods (No Contaners/Boxes),ok
+BMY,2834,13,0001193125-08-035566,2008-02-22,14272.0,2834,13,ok,False,False,14272.0,Pharmaceutical Preparations,ok
+BNY,6022,45,0001193125-08-041952,2008-02-28,1390777.0,6022,45,ok,False,False,1390777.0,State Commercial Banks,ok
+BR,7389,34,0001193125-07-188068,2007-08-23,1383312.0,6199,45,ok,True,True,1383312.0,"Services-Business Services, NEC",ok
+BRCM,,,,,,,,,,,,,no_cik
+BRK-B,6331,46,0000950134-08-003848,2008-02-29,1067983.0,6331,46,ok,False,False,1067983.0,"Fire, Marine & Casualty Insurance",ok
+BRO,6411,46,0001188112-08-000632,2008-02-29,79282.0,6411,46,ok,False,False,79282.0,"Insurance Agents, Brokers & Service",ok
+BS,,,,,,,,,,,,,no_cik
+BSX,3841,12,0001072613-08-000584,2008-02-28,885725.0,3841,12,ok,False,False,885725.0,Surgical & Medical Instruments & Apparatus,ok
+BTU,1221,29,0000950137-08-002952,2008-02-28,1064728.0,1221,29,ok,False,False,1064728.0,Bituminous Coal & Lignite Surface Mining,ok
+BWA,3714,23,0000908255-08-000021,2008-02-14,908255.0,3714,23,ok,False,False,908255.0,Motor Vehicle Parts & Accessories,ok
+BX,6282,48,0001193125-08-053079,2008-03-12,1393818.0,6282,48,ok,False,False,1393818.0,Investment Advice,ok
+BXLT,2834,13,0001193125-16-491806,2016-03-03,1620546.0,2834,13,ok,False,False,1620546.0,Pharmaceutical Preparations,ok
+BXP,6798,48,0001193125-08-043857,2008-02-29,1037540.0,6798,48,ok,False,False,1037540.0,Real Estate Investment Trusts,ok
+C,6021,45,0001193125-08-036445,2008-02-22,831001.0,6021,45,ok,False,False,831001.0,National Commercial Banks,ok
+CA,,,,,,,,,,,,,no_cik
+CAG,2000,2,0001193125-07-161690,2007-07-25,23217.0,2000,2,ok,False,False,23217.0,Food and Kindred Products,ok
+CAH,5122,42,0000950152-07-007107,2007-08-24,721371.0,5122,42,ok,False,False,721371.0,"Wholesale-Drugs, Proprietaries & Druggists' Sundries",ok
+CAM,3533,21,0000941548-08-000007,2008-02-29,941548.0,3533,21,ok,False,False,941548.0,Oil & Gas Field Machinery & Equipment,ok
+CARR,3585,21,0001783180-21-000011,2021-02-09,1783180.0,3585,21,ok,False,False,1783180.0,Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip,ok
+CASY,5500,43,0001193125-07-147153,2007-06-29,726958.0,5500,43,ok,False,False,726958.0,Retail-Auto Dealers & Gasoline Stations,ok
+CAT,3531,21,0000018230-08-000052,2008-02-22,18230.0,3531,21,ok,False,False,18230.0,Construction Machinery & Equip,ok
+CB,6331,46,0001193125-08-042242,2008-02-29,896159.0,6331,46,ok,False,False,896159.0,"Fire, Marine & Casualty Insurance",ok
+CBE,3670,37,0000950129-08-001096,2008-02-22,1141982.0,3640,22,ok,True,True,1141982.0,Electronic Components & Accessories,ok
+CBOE,6200,48,0001047469-11-002202,2011-03-16,1374310.0,6200,48,ok,False,False,1374310.0,"Security & Commodity Brokers, Dealers, Exchanges & Services",ok
+CBRE,6500,47,0001193125-08-043674,2008-02-29,1138118.0,6500,47,ok,False,False,1138118.0,Real Estate,ok
+CCE,,,,,,,,,,,,,no_cik
+CCI,6798,48,0001193125-08-038926,2008-02-27,1051470.0,4899,32,ok,True,True,1051470.0,Real Estate Investment Trusts,ok
+CCK,3411,40,0001219601-08-000009,2008-02-28,1219601.0,3411,40,ok,False,False,1219601.0,Metal Cans,ok
+CCL,4400,41,0001169232-08-000308,2008-01-29,815097.0,4400,41,ok,False,False,815097.0,Water Transportation,ok
+CDAY,,,,,,,,,,,,,no_cik
+CDNS,7372,36,0000950134-08-003361,2008-02-26,813672.0,7372,36,ok,False,False,813672.0,Services-Prepackaged Software,ok
+CDW,5961,43,0001193125-11-056194,2011-03-04,1402057.0,5961,43,ok,False,False,1402057.0,Retail-Catalog & Mail-Order Houses,ok
+CE,2820,14,0000950123-08-002318,2008-02-29,1306830.0,2820,14,ok,False,False,1306830.0,"Plastic Material, Synth Resin/Rubber, Cellulos (No Glass)",ok
+CEG,4911,31,0001868275-22-000020,2022-02-25,1868275.0,4911,31,ok,False,False,1868275.0,Electric Services,ok
+CELG,2834,13,0000950123-08-001878,2008-02-20,816284.0,2834,13,ok,False,False,816284.0,Pharmaceutical Preparations,ok
+CEPH,2834,13,0001047469-08-001920,2008-02-28,873364.0,2834,13,ok,False,False,873364.0,Pharmaceutical Preparations,ok
+CERN,7373,36,0000950137-08-002851,2008-02-27,804753.0,7373,36,ok,False,False,804753.0,Services-Computer Integrated Systems Design,ok
+CF,2870,14,0001047469-08-001816,2008-02-27,1324404.0,2870,14,ok,False,False,1324404.0,Agricultural Chemicals,ok
+CFC,,,,,,,,,,,,,no_cik
+CFG,6022,45,0000759944-15-000016,2015-03-03,759944.0,6022,45,ok,False,False,759944.0,State Commercial Banks,ok
+CFN,3841,12,0001193125-09-191659,2009-09-15,1457543.0,3841,12,ok,False,False,1457543.0,Surgical & Medical Instruments & Apparatus,ok
+CHD,2840,9,0001193125-08-039878,2008-02-27,313927.0,2840,9,ok,False,False,313927.0,"Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",ok
+CHK,1311,30,0001193125-08-043772,2008-02-29,895126.0,1311,30,ok,False,False,895126.0,Crude Petroleum & Natural Gas,ok
+CHRW,4731,41,0001193125-08-043464,2008-02-29,1043277.0,4731,41,ok,False,False,1043277.0,Arrangement of  Transportation of  Freight & Cargo,ok
+CHTR,4841,32,0001091667-08-000004,2008-02-27,1091667.0,4841,32,ok,False,False,1091667.0,Cable & Other Pay Television Services,ok
+CI,6324,46,0001047469-19-000792,2019-02-28,1739940.0,6324,46,ok,False,False,1739940.0,Hospital & Medical Service Plans,ok
+CIEN,3661,37,0000950133-07-005124,2007-12-27,936395.0,3661,37,ok,False,False,936395.0,Telephone & Telegraph Apparatus,ok
+CINF,6331,46,0000950152-08-001543,2008-02-29,20286.0,6331,46,ok,False,False,20286.0,"Fire, Marine & Casualty Insurance",ok
+CL,2844,9,0001193125-08-041526,2008-02-28,21665.0,2844,9,ok,False,False,21665.0,"Perfumes, Cosmetics & Other Toilet Preparations",ok
+CLF,1000,28,0001193125-07-123585,2007-05-25,764065.0,1000,28,ok,False,False,764065.0,Metal Mining,ok
+CLX,2842,9,0000891618-07-000521,2007-08-24,21076.0,2842,9,ok,False,False,21076.0,"Specialty Cleaning, Polishing and Sanitation Preparations",ok
+CMA,6021,45,0000950124-08-000815,2008-02-26,28412.0,6021,45,ok,False,False,28412.0,National Commercial Banks,ok
+CMCSA,4841,32,0001193125-08-034239,2008-02-20,1166691.0,4841,32,ok,False,False,1166691.0,Cable & Other Pay Television Services,ok
+CMCSK,,,,,,,,,,,,,no_cik
+CME,6200,48,0001193125-08-040449,2008-02-28,1156375.0,6200,48,ok,False,False,1156375.0,"Security & Commodity Brokers, Dealers, Exchanges & Services",ok
+CMG,5812,44,0001193125-08-038764,2008-02-26,1058090.0,5810,44,ok,True,False,1058090.0,Retail-Eating  Places,ok
+CMI,3510,21,0001047469-08-001743,2008-02-26,26172.0,3510,21,ok,False,False,26172.0,Engines & Turbines,ok
+CMS,4931,31,0000950124-08-000749,2008-02-21,811156.0,4931,31,ok,False,False,811156.0,Electric & Other Services Combined,ok
+CNC,6324,46,0001071739-08-000010,2008-02-25,1071739.0,6324,46,ok,False,False,1071739.0,Hospital & Medical Service Plans,ok
+CNP,4911,31,0000950134-08-003670,2008-02-28,1130310.0,4911,31,ok,False,False,1130310.0,Electric Services,ok
+CNX,,,,,,,,,,,,,no_cik
+COF,6021,45,0001193125-08-043757,2008-02-29,927628.0,6022,45,ok,True,False,927628.0,National Commercial Banks,ok
+COHR,3827,38,0001193125-07-198294,2007-09-10,820318.0,3827,38,ok,False,False,820318.0,Optical Instruments & Lenses,ok
+COIN,6199,45,0001679788-22-000031,2022-02-25,1679788.0,6199,45,ok,False,False,1679788.0,Finance Services,ok
+COL,3728,24,0000950137-07-017412,2007-11-16,1137411.0,3728,24,ok,False,False,1137411.0,"Aircraft Parts & Auxiliary Equipment, NEC",ok
+COO,3851,12,0001193125-07-270797,2007-12-26,711404.0,3851,12,ok,False,False,711404.0,Ophthalmic Goods,ok
+COP,2911,30,0000950129-08-001094,2008-02-22,1163165.0,2911,30,ok,False,False,1163165.0,Petroleum Refining,ok
+COR,5122,42,0001193125-07-255013,2007-11-28,1140859.0,5122,42,ok,False,False,1140859.0,"Wholesale-Drugs, Proprietaries & Druggists' Sundries",ok
+COST,5331,43,0001193125-07-225805,2007-10-25,909832.0,5331,43,ok,False,False,909832.0,Retail-Variety Stores,ok
+COTY,2844,9,0000930413-13-004596,2013-09-17,1024305.0,2844,9,ok,False,False,1024305.0,"Perfumes, Cosmetics & Other Toilet Preparations",ok
+COV,3841,12,0001193125-07-264586,2007-12-13,1385187.0,3841,12,ok,False,False,1385187.0,Surgical & Medical Instruments & Apparatus,ok
+CPAY,7389,34,0001193125-11-078175,2011-03-25,1175454.0,7389,34,ok,False,False,1175454.0,"Services-Business Services, NEC",ok
+CPB,2000,2,0000893220-07-003194,2007-09-26,16732.0,2000,2,ok,False,False,16732.0,Food and Kindred Products,ok
+CPGX,4922,31,0001629995-16-000029,2016-02-18,1629995.0,4922,31,ok,False,False,1629995.0,Natural Gas Transmission,ok
+CPRI,3100,10,0001193125-13-239625,2013-05-29,1530721.0,3100,10,ok,False,False,1530721.0,Leather & Leather Products,ok
+CPRT,5500,43,0001104659-07-072450,2007-10-01,900075.0,5500,43,ok,False,False,900075.0,Retail-Auto Dealers & Gasoline Stations,ok
+CPT,6798,48,0001362310-08-001094,2008-02-22,906345.0,6798,48,ok,False,False,906345.0,Real Estate Investment Trusts,ok
+CPWR,7372,36,0000950124-07-003093,2007-05-30,859014.0,7372,36,ok,False,False,859014.0,Services-Prepackaged Software,ok
+CRH,3241,17,0001628280-24-007773,2024-02-29,849395.0,3241,17,ok,False,False,849395.0,"Cement, Hydraulic",ok
+CRL,8731,34,0001047469-08-001507,2008-02-20,1100682.0,2836,13,ok,True,True,1100682.0,Services-Commercial Physical & Biological Research,ok
+CRM,7372,36,0001193125-08-043828,2008-02-29,1108524.0,7372,36,ok,False,False,1108524.0,Services-Prepackaged Software,ok
+CRWD,7372,36,0001535527-20-000006,2020-03-23,1535527.0,7372,36,ok,False,False,1535527.0,Services-Prepackaged Software,ok
+CSC,7373,36,0000023082-07-000104,2007-06-13,23082.0,7373,36,ok,False,False,23082.0,Services-Computer Integrated Systems Design,ok
+CSCO,3576,35,0001193125-07-202552,2007-09-18,858877.0,3576,35,ok,False,False,858877.0,Computer Communications Equipment,ok
+CSGP,7389,34,0001057352-08-000004,2008-02-29,1057352.0,7389,34,ok,False,False,1057352.0,"Services-Business Services, NEC",ok
+CSRA,7373,36,0001646383-16-000336,2016-05-27,1646383.0,7373,36,ok,False,False,1646383.0,Services-Computer Integrated Systems Design,ok
+CSX,4011,41,0000277948-08-000036,2008-02-22,277948.0,4011,41,ok,False,False,277948.0,"Railroads, Line-Haul Operating",ok
+CTAS,2320,10,0000892251-07-000154,2007-07-30,723254.0,2320,10,ok,False,False,723254.0,"Men's & Boys' Furnishgs, Work Clothg, & Allied Garments",ok
+CTLT,2834,13,0001596783-14-000008,2014-09-08,1596783.0,2834,13,ok,False,False,1596783.0,Pharmaceutical Preparations,ok
+CTRA,1311,30,0001193125-08-039904,2008-02-27,858470.0,1311,30,ok,False,False,858470.0,Crude Petroleum & Natural Gas,ok
+CTSH,7371,36,0001193125-08-042031,2008-02-28,1058290.0,7371,36,ok,False,False,1058290.0,Services-Computer Programming Services,ok
+CTVA,100,1,0001755672-20-000006,2020-02-14,1755672.0,100,1,ok,False,False,1755672.0,Agricultural Production-Crops,ok
+CTX,,,,,,,,,,,,,no_cik
+CTXS,7372,36,0001193125-07-197541,2007-09-07,877890.0,7372,36,ok,False,False,877890.0,Services-Prepackaged Software,ok
+CVC,4841,32,0001104659-08-013859,2008-02-28,1053112.0,4841,32,ok,False,False,1053112.0,Cable & Other Pay Television Services,ok
+CVG,7373,36,0001193125-08-041742,2008-02-28,1062047.0,7373,36,ok,False,False,1062047.0,Services-Computer Integrated Systems Design,ok
+CVH,6324,46,0001054833-08-000008,2008-02-28,1054833.0,6324,46,ok,False,False,1054833.0,Hospital & Medical Service Plans,ok
+CVNA,5500,43,0001690820-18-000005,2018-03-06,1690820.0,5500,43,ok,False,False,1690820.0,Retail-Auto Dealers & Gasoline Stations,ok
+CVS,5912,43,0001193125-08-040019,2008-02-27,64803.0,5912,43,ok,False,False,64803.0,Retail-Drug Stores and Proprietary Stores,ok
+CVX,2911,30,0000950134-08-003672,2008-02-28,93410.0,2911,30,ok,False,False,93410.0,Petroleum Refining,ok
+CXO,1311,30,0000950134-08-005587,2008-03-28,1358071.0,1311,30,ok,False,False,1358071.0,Crude Petroleum & Natural Gas,ok
+CZR,,,,,,,,,,,,,no_cik
+D,4911,31,0001193125-08-041046,2008-02-28,715957.0,4911,31,ok,False,False,715957.0,Electric Services,ok
+DAL,4512,41,0001193125-08-032611,2008-02-15,27904.0,4512,41,ok,False,False,27904.0,"Air Transportation, Scheduled",ok
+DASH,7389,34,0001628280-21-004032,2021-03-05,1792789.0,7389,34,ok,False,False,1792789.0,"Services-Business Services, NEC",ok
+DAY,7372,36,0001564590-19-005517,2019-02-28,1725057.0,7372,36,ok,False,False,1725057.0,Services-Prepackaged Software,ok
+DD,2821,14,0001666700-18-000009,2018-02-15,1666700.0,2821,14,ok,False,False,1666700.0,"Plastic Materials, Synth Resins & Nonvulcan Elastomers",ok
+DDOG,7372,36,0001564590-20-006422,2020-02-25,1561550.0,7372,36,ok,False,False,1561550.0,Services-Prepackaged Software,ok
+DE,3523,21,0001104659-07-090067,2007-12-20,315189.0,3523,21,ok,False,False,315189.0,Farm Machinery & Equipment,ok
+DECK,3021,10,0001047469-08-002087,2008-02-29,910521.0,3021,10,ok,False,False,910521.0,Rubber & Plastics Footwear,ok
+DELL,3571,35,0001571996-17-000004,2017-03-31,1571996.0,3571,35,ok,False,False,1571996.0,Electronic Computers,ok
+DF,2020,2,0000950134-08-003619,2008-02-28,931336.0,2024,2,ok,True,False,931336.0,Dairy Products,ok
+DFS,,,,,,,,,,,,,no_cik
+DG,5331,43,0001005794-08-000099,2008-03-28,29534.0,5331,43,ok,False,False,29534.0,Retail-Variety Stores,ok
+DGX,8071,11,0000930413-08-001152,2008-02-22,1022079.0,8071,11,ok,False,False,1022079.0,Services-Medical Laboratories,ok
+DHI,1531,18,0000950134-07-024545,2007-11-27,882184.0,1531,18,ok,False,False,882184.0,Operative Builders,ok
+DHR,3823,38,0001193125-08-034637,2008-02-21,313616.0,3823,38,ok,False,False,313616.0,"Industrial Instruments For Measurement, Display, and Control",ok
+DIS,7990,7,0001744489-19-000225,2019-11-20,1744489.0,7990,7,ok,False,False,1744489.0,Services-Miscellaneous Amusement & Recreation,ok
+DISCA,4841,32,0000950133-09-000442,2009-02-26,1437107.0,4841,32,ok,False,False,1437107.0,Cable & Other Pay Television Services,ok
+DISCK,4841,32,0000950133-09-000442,2009-02-26,1437107.0,4841,32,ok,False,False,1437107.0,Cable & Other Pay Television Services,ok
+DISH,,,,,,,,,,,,,no_cik
+DJ,,,,,,,,,,,,,no_cik
+DLR,6798,48,0001193125-08-043850,2008-02-29,1297996.0,6798,48,ok,False,False,1297996.0,Real Estate Investment Trusts,ok
+DLTR,5331,43,0000935703-07-000017,2007-04-04,935703.0,5331,43,ok,False,False,935703.0,Retail-Variety Stores,ok
+DNB,7320,34,0001193125-08-037503,2008-02-25,1115222.0,7320,34,ok,False,False,1115222.0,"Services-Consumer Credit Reporting, Collection Agencies",ok
+DNR,1311,30,0000950134-08-003807,2008-02-29,945764.0,1311,30,ok,False,False,945764.0,Crude Petroleum & Natural Gas,ok
+DO,1381,30,0000950129-08-001178,2008-02-25,949039.0,1381,30,ok,False,False,949039.0,Drilling Oil & Gas Wells,ok
+DOC,6798,48,0001047469-08-001116,2008-02-12,765880.0,6798,48,ok,False,False,765880.0,Real Estate Investment Trusts,ok
+DOV,3530,21,0000950123-08-002255,2008-02-28,29905.0,3530,21,ok,False,False,29905.0,"Construction, Mining & Materials Handling Machinery & Equip",ok
+DOW,2821,14,0001751788-20-000007,2020-02-07,1751788.0,2821,14,ok,False,False,1751788.0,"Plastic Materials, Synth Resins & Nonvulcan Elastomers",ok
+DPS,2080,4,0000950134-09-006140,2009-03-26,1418135.0,2080,4,ok,False,False,1418135.0,Beverages,ok
+DPZ,5140,42,0001193125-08-037999,2008-02-26,1286681.0,5140,42,ok,False,False,1286681.0,Wholesale-Groceries & Related Products,ok
+DRE,6798,48,0001104659-08-014097,2008-02-29,783280.0,6798,48,ok,False,False,783280.0,Real Estate Investment Trusts,ok
+DRI,5812,44,0001193125-07-158244,2007-07-19,940944.0,5812,44,ok,False,False,940944.0,Retail-Eating  Places,ok
+DTE,4911,31,0000950124-08-001093,2008-03-07,936340.0,4911,31,ok,False,False,936340.0,Electric Services,ok
+DTV,4899,32,0001047469-10-001456,2010-02-26,1465112.0,4899,32,ok,False,False,1465112.0,"Communications Services, NEC",ok
+DUK,4931,31,0001193125-08-043884,2008-02-29,1326160.0,4931,31,ok,False,False,1326160.0,Electric & Other Services Combined,ok
+DV,8200,33,0001140361-07-017229,2007-08-24,730464.0,8200,33,ok,False,False,730464.0,Services-Educational Services,ok
+DVA,8090,11,0001193125-08-042304,2008-02-29,927066.0,8090,11,ok,False,False,927066.0,"Services-Misc Health & Allied Services, NEC",ok
+DVN,1311,30,0000950134-08-003698,2008-02-28,1090012.0,1311,30,ok,False,False,1090012.0,Crude Petroleum & Natural Gas,ok
+DWDP,,,,,,,,,,,,,no_cik
+DXC,7374,34,0001688568-18-000036,2018-05-29,1688568.0,7374,34,ok,False,False,1688568.0,Services-Computer Processing & Data Preparation,ok
+DXCM,3841,12,0001193125-08-053011,2008-03-11,1093557.0,3841,12,ok,False,False,1093557.0,Surgical & Medical Instruments & Apparatus,ok
+DYN,4911,31,0001193125-08-041975,2008-02-28,1379895.0,4911,31,ok,False,False,1379895.0,Electric Services,ok
+EA,7372,36,0000950134-07-012528,2007-05-30,712515.0,7372,36,ok,False,False,712515.0,Services-Prepackaged Software,ok
+EBAY,7389,34,0000950134-08-003741,2008-02-29,1065088.0,7389,34,ok,False,False,1065088.0,"Services-Business Services, NEC",ok
+ECHO,4899,32,0001140361-08-004994,2008-02-26,1415404.0,3663,37,ok,True,True,1415404.0,"Communications Services, NEC",ok
+ECL,2840,9,0001104659-08-012647,2008-02-25,31462.0,2840,9,ok,False,False,31462.0,"Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",ok
+ED,4931,31,0001193125-08-036146,2008-02-22,1047862.0,4931,31,ok,False,False,1047862.0,Electric & Other Services Combined,ok
+EFX,7320,34,0001047469-08-001839,2008-02-27,33185.0,7320,34,ok,False,False,33185.0,"Services-Consumer Credit Reporting, Collection Agencies",ok
+EG,6331,46,0001095073-08-000007,2008-02-29,1095073.0,6331,46,ok,False,False,1095073.0,"Fire, Marine & Casualty Insurance",ok
+EIX,4911,31,0000892569-08-000173,2008-02-27,827052.0,4911,31,ok,False,False,827052.0,Electric Services,ok
+EK,3861,9,0001206774-08-000374,2008-02-27,31235.0,3861,9,ok,False,False,31235.0,Photographic Equipment & Supplies,ok
+EL,2844,9,0001104659-07-065600,2007-08-28,1001250.0,2844,9,ok,False,False,1001250.0,"Perfumes, Cosmetics & Other Toilet Preparations",ok
+ELV,6324,46,0001193125-08-035367,2008-02-21,1156039.0,6324,46,ok,False,False,1156039.0,Hospital & Medical Service Plans,ok
+EMC,3572,35,0001047469-08-001993,2008-02-29,790070.0,3572,35,ok,False,False,790070.0,Computer Storage Devices,ok
+EME,1731,18,0000930413-08-001130,2008-02-21,105634.0,1731,18,ok,False,False,105634.0,Electrical Work,ok
+EMN,2821,14,0000915389-08-000017,2008-02-29,915389.0,2821,14,ok,False,False,915389.0,"Plastic Materials, Synth Resins & Nonvulcan Elastomers",ok
+EMR,3600,22,0001144204-07-063041,2007-11-19,32604.0,3600,22,ok,False,False,32604.0,Electronic & Other Electrical Equipment (No Computer Equip),ok
+ENDP,2834,13,0001593034-15-000005,2015-03-02,1593034.0,2834,13,ok,False,False,1593034.0,Pharmaceutical Preparations,ok
+ENPH,3674,37,0001445305-13-000492,2013-03-05,1463101.0,3674,37,ok,False,False,1463101.0,Semiconductors & Related Devices,ok
+EOG,1311,30,0000821189-08-000042,2008-02-28,821189.0,1311,30,ok,False,False,821189.0,Crude Petroleum & Natural Gas,ok
+EP,4922,31,0000950129-08-001326,2008-02-28,1066107.0,4922,31,ok,False,False,1066107.0,Natural Gas Transmission,ok
+EPAM,7371,36,0001193125-12-143392,2012-03-30,1352010.0,7371,36,ok,False,False,1352010.0,Services-Computer Programming Services,ok
+EQIX,6798,48,0001193125-08-040053,2008-02-27,1101239.0,4813,32,ok,True,True,1101239.0,Real Estate Investment Trusts,ok
+EQT,1311,30,0001104659-08-012255,2008-02-22,33213.0,4923,31,ok,True,True,33213.0,Crude Petroleum & Natural Gas,ok
+ERIE,6411,46,0000950152-08-001475,2008-02-27,922621.0,6411,46,ok,False,False,922621.0,"Insurance Agents, Brokers & Service",ok
+ES,4911,31,0000072741-08-000107,2008-02-29,72741.0,4911,31,ok,False,False,72741.0,Electric Services,ok
+ESRX,5912,43,0000885721-08-000010,2008-02-21,885721.0,5912,43,ok,False,False,885721.0,Retail-Drug Stores and Proprietary Stores,ok
+ESS,6798,48,0000920522-08-000009,2008-02-29,920522.0,6798,48,ok,False,False,920522.0,Real Estate Investment Trusts,ok
+ESV,1381,30,0000314808-08-000012,2008-02-26,314808.0,1381,30,ok,False,False,314808.0,Drilling Oil & Gas Wells,ok
+ETFC,,,,,,,,,,,,,no_cik
+ETN,3590,21,0001551182-13-000005,2013-02-28,1551182.0,3590,21,ok,False,False,1551182.0,Misc Industrial & Commercial Machinery & Equipment,ok
+ETR,4911,31,0000065984-08-000052,2008-02-29,65984.0,4911,31,ok,False,False,65984.0,Electric Services,ok
+ETSY,7389,34,0001370637-16-000032,2016-03-01,1370637.0,7389,34,ok,False,False,1370637.0,"Services-Business Services, NEC",ok
+EVHC,,,,,,,,,,,,,no_cik
+EVRG,4931,31,0001711269-19-000013,2019-02-22,1711269.0,4931,31,ok,False,False,1711269.0,Electric & Other Services Combined,ok
+EW,3842,12,0001047469-08-001956,2008-02-29,1099800.0,3842,12,ok,False,False,1099800.0,"Orthopedic, Prosthetic & Surgical Appliances & Supplies",ok
+EXC,4931,31,0001193125-08-022265,2008-02-07,1109357.0,4931,31,ok,False,False,1109357.0,Electric & Other Services Combined,ok
+EXE,1311,30,0001193125-08-043772,2008-02-29,895126.0,1311,30,ok,False,False,895126.0,Crude Petroleum & Natural Gas,ok
+EXPD,4731,41,0001104659-08-013877,2008-02-29,746515.0,4731,41,ok,False,False,746515.0,Arrangement of  Transportation of  Freight & Cargo,ok
+EXPE,4700,41,0000950134-08-003172,2008-02-22,1324424.0,4700,41,ok,False,False,1324424.0,Transportation Services,ok
+EXR,6798,48,0001047469-08-001991,2008-02-29,1289490.0,6798,48,ok,False,False,1289490.0,Real Estate Investment Trusts,ok
+F,3711,23,0001140361-08-005181,2008-02-27,37996.0,3711,23,ok,False,False,37996.0,Motor Vehicles & Passenger Car Bodies,ok
+FANG,1311,30,0001539838-13-000004,2013-03-01,1539838.0,1311,30,ok,False,False,1539838.0,Crude Petroleum & Natural Gas,ok
+FAST,5200,43,0001193125-08-035349,2008-02-21,815556.0,5200,43,ok,False,False,815556.0,"Retail-Building Materials, Hardware, Garden Supply",ok
+FBHS,2430,17,0001193125-12-072886,2012-02-22,1519751.0,1520,18,ok,True,True,1519751.0,"Millwood, Veneer, Plywood, & Structural Wood Members",ok
+FCX,1000,28,0000831259-08-000026,2008-02-29,831259.0,1000,28,ok,False,False,831259.0,Metal Mining,ok
+FDC,7389,34,0001193125-08-055502,2008-03-13,883980.0,6199,45,ok,True,True,883980.0,"Services-Business Services, NEC",ok
+FDO,,,,,1672323.0,,,no_10k,,,1672323.0,,no_sic
+FDS,7370,36,0001193125-07-229389,2007-10-30,1013237.0,7370,36,ok,False,False,1013237.0,"Services-Computer Programming, Data Processing, Etc.",ok
+FDX,4513,41,0000950144-07-006556,2007-07-13,1048911.0,4513,41,ok,False,False,1048911.0,Air Courier Services,ok
+FDXF,4513,41,0001628280-26-053359,2026-08-05,2082247.0,4513,41,ok,False,False,2082247.0,Air Courier Services,ok
+FE,4911,31,0001031296-08-000049,2008-02-29,1031296.0,4911,31,ok,False,False,1031296.0,Electric Services,ok
+FERG,5070,42,0002011641-24-000005,2024-09-25,2011641.0,5070,42,ok,False,False,2011641.0,Wholesale-Hardware & Plumbing & Heating Equipment & Supplies,ok
+FFIV,3576,35,0000950134-07-024269,2007-11-19,1048695.0,3576,35,ok,False,False,1048695.0,Computer Communications Equipment,ok
+FHN,6021,45,0000930413-08-001253,2008-02-27,36966.0,6021,45,ok,False,False,36966.0,National Commercial Banks,ok
+FICO,7389,34,0000950137-07-017904,2007-11-28,814547.0,7389,34,ok,False,False,814547.0,"Services-Business Services, NEC",ok
+FII,6282,48,0001193125-08-041982,2008-02-28,1056288.0,6282,48,ok,False,False,1056288.0,Investment Advice,ok
+FIS,7389,34,0000892569-08-000207,2008-02-29,1136893.0,7389,34,ok,False,False,1136893.0,"Services-Business Services, NEC",ok
+FISV,7389,34,0001193125-08-041891,2008-02-28,798354.0,7374,34,ok,True,False,798354.0,"Services-Business Services, NEC",ok
+FITB,6022,45,0001193125-08-036443,2008-02-22,35527.0,6022,45,ok,False,False,35527.0,State Commercial Banks,ok
+FIX,1731,18,0001047469-08-001857,2008-02-28,1035983.0,1731,18,ok,False,False,1035983.0,Electrical Work,ok
+FL,5661,43,0001206774-07-000876,2007-04-02,850209.0,5661,43,ok,False,False,850209.0,Retail-Shoe Stores,ok
+FLEX,3672,37,0001035704-07-000431,2007-05-29,866374.0,3672,37,ok,False,False,866374.0,Printed Circuit Boards,ok
+FLIR,3812,37,0001193125-08-043229,2008-02-29,354908.0,3812,37,ok,False,False,354908.0,"Search, Detection, Navigation, Guidance, Aeronautical Sys",ok
+FLR,1600,18,0001047469-08-002025,2008-02-29,1124198.0,1600,18,ok,False,False,1124198.0,Heavy Construction Other Than Bldg Const - Contractors,ok
+FLS,3561,21,0000950134-08-003592,2008-02-27,30625.0,3561,21,ok,False,False,30625.0,Pumps & Pumping Equipment,ok
+FLT,7389,34,0001193125-11-078175,2011-03-25,1175454.0,7389,34,ok,False,False,1175454.0,"Services-Business Services, NEC",ok
+FMC,2800,14,0001193125-08-036999,2008-02-25,37785.0,2800,14,ok,False,False,37785.0,Chemicals & Allied Products,ok
+FNM,,,,,,,,,,,,,no_cik
+FOSL,3873,9,0001140361-07-015655,2007-08-08,883569.0,3873,9,ok,False,False,883569.0,"Watches, Clocks, Clockwork Operated Devices/Parts",ok
+FOX,4833,32,0001564590-19-031285,2019-08-09,1754301.0,4833,32,ok,False,False,1754301.0,Television Broadcasting Stations,ok
+FOXA,4833,32,0001564590-19-031285,2019-08-09,1754301.0,4833,32,ok,False,False,1754301.0,Television Broadcasting Stations,ok
+FRC,,,,,,,,,,,,,no_cik
+FRE,,,,,,,,,,,,,no_cik
+FRT,6798,48,0001193125-08-039905,2008-02-27,34903.0,6798,48,ok,False,False,34903.0,Real Estate Investment Trusts,ok
+FRX,2834,13,0000038074-07-000008,2007-05-30,38074.0,2834,13,ok,False,False,38074.0,Pharmaceutical Preparations,ok
+FSLR,3674,37,0000950153-08-000367,2008-02-21,1274494.0,3674,37,ok,False,False,1274494.0,Semiconductors & Related Devices,ok
+FTI,3533,21,0001681459-17-000013,2017-01-13,1681459.0,3533,21,ok,False,False,1681459.0,Oil & Gas Field Machinery & Equipment,ok
+FTNT,3577,35,0001193125-10-048351,2010-03-05,1262039.0,3577,35,ok,False,False,1262039.0,"Computer Peripheral Equipment, NEC",ok
+FTR,4813,32,0000020520-08-000013,2008-02-28,20520.0,4813,32,ok,False,False,20520.0,Telephone Communications (No Radiotelephone),ok
+FTV,3823,38,0001659166-17-000091,2017-02-28,1659166.0,3823,38,ok,False,False,1659166.0,"Industrial Instruments For Measurement, Display, and Control",ok
+GAS,4924,31,0001004155-08-000032,2008-02-07,1004155.0,4924,31,ok,False,False,1004155.0,Natural Gas Distribution,ok
+GD,3730,25,0001193125-08-035841,2008-02-22,40533.0,3730,25,ok,False,False,40533.0,Ship & Boat Building & Repairing,ok
+GDDY,7373,36,0001609711-16-000048,2016-03-03,1609711.0,7373,36,ok,False,False,1609711.0,Services-Computer Integrated Systems Design,ok
+GE,3600,22,0000040545-08-000011,2008-02-20,40545.0,3600,22,ok,False,False,40545.0,Electronic & Other Electrical Equipment (No Computer Equip),ok
+GEHC,3844,12,0001932393-23-000025,2023-02-15,1932393.0,3844,12,ok,False,False,1932393.0,X-Ray Apparatus & Tubes & Related Irradiation Apparatus,ok
+GEN,7372,36,0000950134-07-012232,2007-05-24,849399.0,7372,36,ok,False,False,849399.0,Services-Prepackaged Software,ok
+GENZ,2836,13,0001047469-08-002100,2008-02-29,732485.0,2836,13,ok,False,False,732485.0,"Biological Products, (No Diagnostic Substances)",ok
+GEV,3600,22,0001996810-25-000011,2025-02-06,1996810.0,3600,22,ok,False,False,1996810.0,Electronic & Other Electrical Equipment (No Computer Equip),ok
+GGP,6798,48,0001047469-11-001829,2011-03-08,1496048.0,6798,48,ok,False,False,1496048.0,Real Estate Investment Trusts,ok
+GHC,8200,33,0000950133-08-000866,2008-02-28,104889.0,8200,33,ok,False,False,104889.0,Services-Educational Services,ok
+GILD,2836,13,0001193125-08-040255,2008-02-27,882095.0,2836,13,ok,False,False,882095.0,"Biological Products, (No Diagnostic Substances)",ok
+GIS,2040,2,0000897101-07-001522,2007-07-26,40704.0,2040,2,ok,False,False,40704.0,Grain Mill Products,ok
+GL,6311,46,0001193125-08-043419,2008-02-29,320335.0,6311,46,ok,False,False,320335.0,Life Insurance,ok
+GLK,,,,,,,,,,,,,no_cik
+GLW,3357,19,0001193125-08-031868,2008-02-15,24741.0,3357,19,ok,False,False,24741.0,Drawing & Insulating of  Nonferrous Wire,ok
+GM,3711,23,0001193125-10-078119,2010-04-07,1467858.0,3711,23,ok,False,False,1467858.0,Motor Vehicles & Passenger Car Bodies,ok
+GMCR,2090,2,0001193125-07-264462,2007-12-13,909954.0,2090,2,ok,False,False,909954.0,Miscellaneous Food Preparations & Kindred Products,ok
+GME,5734,43,0000950134-07-007555,2007-04-04,1326380.0,5734,43,ok,False,False,1326380.0,Retail-Computer & Computer Software Stores,ok
+GNRC,3621,22,0001047469-10-002937,2010-03-30,1474735.0,3621,22,ok,False,False,1474735.0,Motors & Generators,ok
+GNW,6311,46,0001193125-08-041475,2008-02-28,1276520.0,6311,46,ok,False,False,1276520.0,Life Insurance,ok
+GOOG,7370,36,0001652044-16-000012,2016-02-11,1652044.0,7370,36,ok,False,False,1652044.0,"Services-Computer Programming, Data Processing, Etc.",ok
+GOOGL,7370,36,0001652044-16-000012,2016-02-11,1652044.0,7370,36,ok,False,False,1652044.0,"Services-Computer Programming, Data Processing, Etc.",ok
+GPC,5013,42,0000950144-08-001503,2008-02-29,40987.0,5013,42,ok,False,False,40987.0,Wholesale-Motor Vehicle Supplies & New Parts,ok
+GPN,7389,34,0001193125-07-165419,2007-07-30,1123360.0,7389,34,ok,False,False,1123360.0,"Services-Business Services, NEC",ok
+GPS,5651,43,0001193125-07-070941,2007-04-02,39911.0,5651,43,ok,False,False,39911.0,Retail-Family Clothing Stores,ok
+GR,3760,26,0000950144-08-001178,2008-02-19,42542.0,3760,26,ok,False,False,42542.0,Guided Missiles & Space Vehicles & Parts,ok
+GRA,,,,,,,,,,,,,no_cik
+GRMN,3812,37,0001144204-08-011821,2008-02-26,1121788.0,3812,37,ok,False,False,1121788.0,"Search, Detection, Navigation, Guidance, Aeronautical Sys",ok
+GRN,,,,,,,,,,,,,no_cik
+GS,6211,48,0000950123-08-000857,2008-01-29,886982.0,6211,48,ok,False,False,886982.0,"Security Brokers, Dealers & Flotation Companies",ok
+GT,3011,23,0000950152-08-001092,2008-02-14,42582.0,3011,23,ok,False,False,42582.0,Tires & Inner Tubes,ok
+GWW,5000,42,0000277135-08-000006,2008-02-27,277135.0,5000,42,ok,False,False,277135.0,Wholesale-Durable Goods,ok
+HAL,1389,30,0000045012-08-000122,2008-02-22,45012.0,1389,30,ok,False,False,45012.0,"Oil & Gas Field Services, NEC",ok
+HAR,,,,,,,,,,,,,no_cik
+HAS,3944,6,0000950135-08-001244,2008-02-27,46080.0,3944,6,ok,False,False,46080.0,"Games, Toys & Children's Vehicles (No Dolls & Bicycles)",ok
+HBAN,6021,45,0000950152-08-001408,2008-02-26,49196.0,6021,45,ok,False,False,49196.0,National Commercial Banks,ok
+HBI,5600,43,0000950144-08-001153,2008-02-19,1359841.0,5600,43,ok,False,False,1359841.0,Retail-Apparel & Accessory Stores,ok
+HCA,8062,11,0000950144-08-002348,2008-03-28,860730.0,8062,11,ok,False,False,860730.0,"Services-General Medical & Surgical Hospitals, NEC",ok
+HCBK,6036,45,0000950123-08-002283,2008-02-29,921847.0,6036,45,ok,False,False,921847.0,"Savings Institutions, Not Federally Chartered",ok
+HD,5211,43,0001047469-08-004077,2008-04-03,354950.0,5211,43,ok,False,False,354950.0,Retail-Lumber & Other Building Materials Dealers,ok
+HES,2911,30,0000950123-08-002199,2008-02-27,4447.0,2911,30,ok,False,False,4447.0,Petroleum Refining,ok
+HFC,2911,30,0000950134-08-003740,2008-02-29,48039.0,2911,30,ok,False,False,48039.0,Petroleum Refining,ok
+HIG,6331,46,0000950123-08-002003,2008-02-22,874766.0,6411,46,ok,True,False,874766.0,"Fire, Marine & Casualty Insurance",ok
+HII,3730,25,0001193125-12-138529,2012-03-29,1501585.0,3730,25,ok,False,False,1501585.0,Ship & Boat Building & Repairing,ok
+HLT,7011,44,0001585689-14-000006,2014-02-27,1585689.0,7011,44,ok,False,False,1585689.0,Hotels & Motels,ok
+HNG,,,,,,,,,,,,,no_cik
+HNZ,,,,,,,,,,,,,no_cik
+HOG,3751,9,0001104659-08-012386,2008-02-22,793952.0,3751,9,ok,False,False,793952.0,"Motorcycles, Bicycles & Parts",ok
+HOLX,3844,12,0001193125-07-253993,2007-11-27,859737.0,3844,12,ok,False,False,859737.0,X-Ray Apparatus & Tubes & Related Irradiation Apparatus,ok
+HON,3724,24,0000930413-08-001037,2008-02-15,773840.0,3714,23,ok,True,True,773840.0,Aircraft Engines & Engine Parts,ok
+HONA,3724,24,,,2089271.0,,,no_10k,,,2089271.0,Aircraft Engines & Engine Parts,ok
+HOOD,6211,48,0001783879-22-000044,2022-02-24,1783879.0,6211,48,ok,False,False,1783879.0,"Security Brokers, Dealers & Flotation Companies",ok
+HOT,,,,,,,,,,,,,no_cik
+HP,1381,30,0001047469-07-009574,2007-11-28,46765.0,1381,30,ok,False,False,46765.0,Drilling Oil & Gas Wells,ok
+HPE,3570,35,0001047469-15-009279,2015-12-17,1645590.0,3570,35,ok,False,False,1645590.0,Computer & office Equipment,ok
+HPH,,,,,,,,,,,,,no_cik
+HPQ,3570,35,0001047469-07-010151,2007-12-18,47217.0,3570,35,ok,False,False,47217.0,Computer & office Equipment,ok
+HRB,7200,33,0000950137-07-009521,2007-06-29,12659.0,7200,33,ok,False,False,12659.0,Services-Personal Services,ok
+HRL,2011,2,0001104659-07-090982,2007-12-27,48465.0,2011,2,ok,False,False,48465.0,Meat Packing Plants,ok
+HSIC,5047,42,0000950123-08-002119,2008-02-26,1000228.0,5047,42,ok,False,False,1000228.0,"Wholesale-Medical, Dental & Hospital Equipment & Supplies",ok
+HSP,2834,13,0001047469-08-001941,2008-02-28,1274057.0,2834,13,ok,False,False,1274057.0,Pharmaceutical Preparations,ok
+HST,6798,48,0001193125-08-037704,2008-02-26,1070750.0,6798,48,ok,False,False,1070750.0,Real Estate Investment Trusts,ok
+HSY,2060,2,0001193125-08-033182,2008-02-19,47111.0,2060,2,ok,False,False,47111.0,Sugar & Confectionery Products,ok
+HUBB,3670,37,0000950123-08-002047,2008-02-25,48898.0,3640,22,ok,True,True,48898.0,Electronic Components & Accessories,ok
+HUM,6324,46,0001193125-08-037394,2008-02-25,49071.0,6324,46,ok,False,False,49071.0,Hospital & Medical Service Plans,ok
+HWM,3350,19,0001193125-08-032695,2008-02-15,4281.0,3350,19,ok,False,False,4281.0,Rolling Drawing & Extruding of  Nonferrous Metals,ok
+IBKR,6211,48,0001104659-08-020387,2008-03-27,1381197.0,6211,48,ok,False,False,1381197.0,"Security Brokers, Dealers & Flotation Companies",ok
+IBM,3570,35,0001047469-08-001731,2008-02-26,51143.0,3570,35,ok,False,False,51143.0,Computer & office Equipment,ok
+ICE,6200,48,0001571949-14-000006,2014-02-14,1571949.0,6200,48,ok,False,False,1571949.0,"Security & Commodity Brokers, Dealers, Exchanges & Services",ok
+IDXX,2835,13,0001362310-08-001141,2008-02-27,874716.0,2835,13,ok,False,False,874716.0,In Vitro & In Vivo Diagnostic Substances,ok
+IEX,3561,21,0000950137-08-003071,2008-02-29,832101.0,3561,21,ok,False,False,832101.0,Pumps & Pumping Equipment,ok
+IFF,2860,14,0000950136-08-000919,2008-02-27,51253.0,2860,14,ok,False,False,51253.0,Industrial Organic Chemicals,ok
+IGT,,,,,,,,,,,,,no_cik
+ILMN,3826,38,0000936392-08-000144,2008-02-26,1110803.0,3826,38,ok,False,False,1110803.0,Laboratory Analytical Instruments,ok
+INCY,8731,34,0001047469-08-002303,2008-03-06,879169.0,8731,34,ok,False,False,879169.0,Services-Commercial Physical & Biological Research,ok
+INFO,7370,36,0001598014-17-000024,2017-01-27,1598014.0,7370,36,ok,False,False,1598014.0,"Services-Computer Programming, Data Processing, Etc.",ok
+INTC,3674,37,0000891618-08-000106,2008-02-20,50863.0,3674,37,ok,False,False,50863.0,Semiconductors & Related Devices,ok
+INTU,7372,36,0000950134-07-020001,2007-09-14,896878.0,7372,36,ok,False,False,896878.0,Services-Prepackaged Software,ok
+INVH,6510,47,0001687229-17-000005,2017-03-30,1687229.0,6510,47,ok,False,False,1687229.0,Real Estate Operators (No Developers) & Lessors,ok
+IP,2621,39,0001193125-08-042850,2008-02-29,51434.0,2621,39,ok,False,False,51434.0,Paper Mills,ok
+IPG,,,,,,,,,,,,,no_cik
+IPGP,3674,37,0000950135-08-001746,2008-03-13,1111928.0,3674,37,ok,False,False,1111928.0,Semiconductors & Related Devices,ok
+IQV,8731,34,0001193125-14-050071,2014-02-13,1478242.0,8731,34,ok,False,False,1478242.0,Services-Commercial Physical & Biological Research,ok
+IR,3560,21,0001140361-18-008833,2018-02-16,1699150.0,3560,21,ok,False,False,1699150.0,General Industrial Machinery & Equipment,ok
+IRM,6798,48,0001047469-08-002061,2008-02-29,1020569.0,4220,34,ok,True,True,1020569.0,Real Estate Investment Trusts,ok
+ISRG,3842,12,0001193125-08-031448,2008-02-14,1035267.0,3842,12,ok,False,False,1035267.0,"Orthopedic, Prosthetic & Surgical Appliances & Supplies",ok
+IT,8741,34,0000950123-08-002262,2008-02-28,749251.0,8741,34,ok,False,False,749251.0,Services-Management Services,ok
+ITT,3561,21,0000950123-08-002275,2008-02-28,216228.0,3561,21,ok,False,False,216228.0,Pumps & Pumping Equipment,ok
+ITW,3560,21,0000950137-08-002954,2008-02-28,49826.0,3560,21,ok,False,False,49826.0,General Industrial Machinery & Equipment,ok
+IVZ,6282,48,0000950144-08-001518,2008-02-29,914208.0,6282,48,ok,False,False,914208.0,Investment Advice,ok
+J,1600,18,0001193125-07-255216,2007-11-29,52988.0,1600,18,ok,False,False,52988.0,Heavy Construction Other Than Bldg Const - Contractors,ok
+JBHT,4213,41,0001104659-08-014088,2008-02-29,728535.0,4213,41,ok,False,False,728535.0,Trucking (No Local),ok
+JBL,3672,37,0001193125-07-115671,2007-05-15,898293.0,3672,37,ok,False,False,898293.0,Printed Circuit Boards,ok
+JCI,3585,21,0001047469-07-009551,2007-11-27,833444.0,7380,34,ok,True,True,833444.0,Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip,ok
+JCP,,,,,,,,,,,,,no_cik
+JDSU,3674,37,0001193125-07-191624,2007-08-29,912093.0,3674,37,ok,False,False,912093.0,Semiconductors & Related Devices,ok
+JEF,6211,48,0000096223-08-000015,2008-02-29,96223.0,2400,17,ok,True,True,96223.0,"Security Brokers, Dealers & Flotation Companies",ok
+JKHY,7373,36,0000926236-07-000089,2007-08-30,779152.0,7373,36,ok,False,False,779152.0,Services-Computer Integrated Systems Design,ok
+JNJ,2834,13,0000950123-08-002130,2008-02-26,200406.0,2834,13,ok,False,False,200406.0,Pharmaceutical Preparations,ok
+JNPR,3576,35,0000950134-08-003762,2008-02-29,1043604.0,3576,35,ok,False,False,1043604.0,Computer Communications Equipment,ok
+JNS,6282,48,0001047469-08-001933,2008-02-28,1065865.0,6282,48,ok,False,False,1065865.0,Investment Advice,ok
+JNY,2330,10,0000874016-08-000010,2008-02-22,874016.0,2330,10,ok,False,False,874016.0,"Women's, Misses':  and Juniors Outerwear",ok
+JOY,3532,21,0000801898-07-000291,2007-12-21,801898.0,3532,21,ok,False,False,801898.0,Mining Machinery & Equip (No Oil & Gas Field Mach & Equip),ok
+JPM,6021,45,0001193125-08-043536,2008-02-29,19617.0,6021,45,ok,False,False,19617.0,National Commercial Banks,ok
+JWN,5651,43,0000950134-08-005196,2008-03-21,72333.0,5651,43,ok,False,False,72333.0,Retail-Family Clothing Stores,ok
+K,2040,2,0000950124-08-000801,2008-02-25,55067.0,2040,2,ok,False,False,55067.0,Grain Mill Products,ok
+KBH,1531,18,0000950124-08-000386,2008-01-29,795266.0,1531,18,ok,False,False,795266.0,Operative Builders,ok
+KDP,2080,4,0000950134-09-006140,2009-03-26,1418135.0,2080,4,ok,False,False,1418135.0,Beverages,ok
+KEY,6021,45,0000950152-08-001528,2008-02-28,91576.0,6021,45,ok,False,False,91576.0,National Commercial Banks,ok
+KEYS,3823,38,0001601046-14-000008,2014-12-22,1601046.0,3823,38,ok,False,False,1601046.0,"Industrial Instruments For Measurement, Display, and Control",ok
+KFT,2000,2,0001193125-08-037590,2008-02-25,1103982.0,2000,2,ok,False,False,1103982.0,Food and Kindred Products,ok
+KG,2834,13,0000950144-08-001506,2008-02-29,1047699.0,2834,13,ok,False,False,1047699.0,Pharmaceutical Preparations,ok
+KHC,2030,2,0001637459-16-000100,2016-03-03,1637459.0,2030,2,ok,False,False,1637459.0,"Canned, Frozen & Preservd Fruit, Veg & Food Specialties",ok
+KIM,6798,48,0001398432-08-000075,2008-02-28,879101.0,6798,48,ok,False,False,879101.0,Real Estate Investment Trusts,ok
+KKR,6282,48,0001047469-11-001800,2011-03-07,1404912.0,6282,48,ok,False,False,1404912.0,Investment Advice,ok
+KLAC,3827,38,0001193125-07-185381,2007-08-20,319201.0,3827,38,ok,False,False,319201.0,Optical Instruments & Lenses,ok
+KMB,2670,39,0001193125-08-036335,2008-02-22,55785.0,2670,39,ok,False,False,55785.0,Converted Paper & Paperboard Prods (No Contaners/Boxes),ok
+KMI,4922,31,0001506307-11-000009,2011-03-02,1506307.0,4922,31,ok,False,False,1506307.0,Natural Gas Transmission,ok
+KMX,5500,43,0001170010-07-000042,2007-04-27,1170010.0,5500,43,ok,False,False,1170010.0,Retail-Auto Dealers & Gasoline Stations,ok
+KO,2080,4,0001193125-08-041768,2008-02-28,21344.0,2080,4,ok,False,False,21344.0,Beverages,ok
+KR,5411,43,0001206774-07-000901,2007-04-04,56873.0,5411,43,ok,False,False,56873.0,Retail-Grocery Stores,ok
+KRFT,2000,2,0001193125-08-037590,2008-02-25,1103982.0,2000,2,ok,False,False,1103982.0,Food and Kindred Products,ok
+KSE,,,,,,,,,,,,,no_cik
+KSS,5311,43,0001193125-08-062622,2008-03-21,885639.0,5311,43,ok,False,False,885639.0,Retail-Department Stores,ok
+KSU,4011,41,0000950137-08-002404,2008-02-15,54480.0,4011,41,ok,False,False,54480.0,"Railroads, Line-Haul Operating",ok
+KVUE,2844,9,0001944048-24-000057,2024-03-01,1944048.0,2844,9,ok,False,False,1944048.0,"Perfumes, Cosmetics & Other Toilet Preparations",ok
+L,6331,46,0000060086-08-000018,2008-02-27,60086.0,6331,46,ok,False,False,60086.0,"Fire, Marine & Casualty Insurance",ok
+LDOS,7373,36,0001193125-07-079805,2007-04-12,1336920.0,8700,34,ok,True,True,1336920.0,Services-Computer Integrated Systems Design,ok
+LDW,,,,,,,,,,,,,no_cik
+LEG,2510,9,0001193125-08-038495,2008-02-26,58492.0,2510,9,ok,False,False,58492.0,Household Furniture,ok
+LEH,,,,,,,,,,,,,no_cik
+LEN,1520,18,0001193125-08-014540,2008-01-29,920760.0,1520,18,ok,False,False,920760.0,General Bldg Contractors - Residential Bldgs,ok
+LH,8071,11,0000920148-08-000071,2008-02-26,920148.0,8071,11,ok,False,False,920148.0,Services-Medical Laboratories,ok
+LHX,3812,37,0000950144-07-008190,2007-08-27,202058.0,3812,37,ok,False,False,202058.0,"Search, Detection, Navigation, Guidance, Aeronautical Sys",ok
+LIFE,2836,13,0001193125-08-032340,2008-02-15,1073431.0,2836,13,ok,False,False,1073431.0,"Biological Products, (No Diagnostic Substances)",ok
+LII,3585,21,0000950134-08-003720,2008-02-28,1069202.0,3585,21,ok,False,False,1069202.0,Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip,ok
+LIN,2810,14,0001707925-18-000004,2018-03-23,1707925.0,2810,14,ok,False,False,1707925.0,Industrial Inorganic Chemicals,ok
+LITE,3669,37,0001628280-15-007281,2015-09-25,1633978.0,3669,37,ok,False,False,1633978.0,"Communications Equipment, NEC",ok
+LKQ,5010,42,0001047469-08-002057,2008-02-29,1065696.0,5010,42,ok,False,False,1065696.0,Wholesale-Motor Vehicles & Motor Vehicle Parts & Supplies,ok
+LLL,3663,37,0000950136-08-000992,2008-02-28,1039101.0,3663,37,ok,False,False,1039101.0,Radio & Tv Broadcasting & Communications Equipment,ok
+LLTC,3674,37,0000791907-07-000053,2007-08-24,791907.0,3674,37,ok,False,False,791907.0,Semiconductors & Related Devices,ok
+LLY,2834,13,0000950137-08-003028,2008-02-29,59478.0,2834,13,ok,False,False,59478.0,Pharmaceutical Preparations,ok
+LM,6282,48,0001193125-07-125417,2007-05-30,704051.0,6211,48,ok,True,False,704051.0,Investment Advice,ok
+LMT,3760,26,0001193125-08-041793,2008-02-28,936468.0,3760,26,ok,False,False,936468.0,Guided Missiles & Space Vehicles & Parts,ok
+LNC,6311,46,0001193125-08-043392,2008-02-29,59558.0,6311,46,ok,False,False,59558.0,Life Insurance,ok
+LNT,4931,31,0000107832-08-000019,2008-02-28,352541.0,4931,31,ok,False,False,352541.0,Electric & Other Services Combined,ok
+LO,,,,,,,,,,,,,no_cik
+LOW,5211,43,0000060667-07-000052,2007-04-03,60667.0,5211,43,ok,False,False,60667.0,Retail-Lumber & Other Building Materials Dealers,ok
+LRCX,3559,21,0000891618-08-000189,2008-03-31,707549.0,3559,21,ok,False,False,707549.0,"Special Industry Machinery, NEC",ok
+LSI,3674,37,0000950134-08-003846,2008-02-29,703360.0,3674,37,ok,False,False,703360.0,Semiconductors & Related Devices,ok
+LULU,2300,10,0000909567-08-000415,2008-04-08,1397187.0,2300,10,ok,False,False,1397187.0,Apparel & Other Finishd Prods of  Fabrics & Similar Matl,ok
+LUMN,4813,32,0000018926-08-000004,2008-02-29,18926.0,4813,32,ok,False,False,18926.0,Telephone Communications (No Radiotelephone),ok
+LUV,4512,41,0000950134-08-001572,2008-02-04,92380.0,4512,41,ok,False,False,92380.0,"Air Transportation, Scheduled",ok
+LVLT,,,,,,,,,,,,,no_cik
+LVS,7011,44,0000950124-08-000952,2008-02-29,1300514.0,7011,44,ok,False,False,1300514.0,Hotels & Motels,ok
+LW,,,,,,,,,,,,,no_cik
+LXK,,,,,,,,,,,,,no_cik
+LYB,2860,14,0000950123-11-026580,2011-03-18,1489393.0,2860,14,ok,False,False,1489393.0,Industrial Organic Chemicals,ok
+LYV,7900,7,0001193125-08-043193,2008-02-29,1335258.0,7900,7,ok,False,False,1335258.0,Services-Amusement & Recreation Services,ok
+M,5311,43,0000950152-07-003009,2007-04-04,794367.0,5311,43,ok,False,False,794367.0,Retail-Department Stores,ok
+MA,7389,34,0001193125-08-034694,2008-02-21,1141391.0,7389,34,ok,False,False,1141391.0,"Services-Business Services, NEC",ok
+MAA,6798,48,0001206774-08-000381,2008-02-27,912595.0,6798,48,ok,False,False,912595.0,Real Estate Investment Trusts,ok
+MAC,6798,48,0001047469-08-001823,2008-02-27,912242.0,6798,48,ok,False,False,912242.0,Real Estate Investment Trusts,ok
+MAR,7011,44,0001193125-08-032582,2008-02-15,1048286.0,7011,44,ok,False,False,1048286.0,Hotels & Motels,ok
+MAS,3430,17,0000950124-08-000792,2008-02-22,62996.0,2430,17,ok,True,False,62996.0,"Heating Equip, Except Elec & Warm Air; & Plumbing Fixtures",ok
+MAT,3942,6,0001193125-08-038808,2008-02-26,63276.0,3942,6,ok,False,False,63276.0,Dolls & Stuffed Toys,ok
+MBC,2511,9,0001941365-23-000022,2023-03-10,1941365.0,2511,9,ok,False,False,1941365.0,"Wood Household Furniture, (No Upholstered)",ok
+MBI,6351,46,0001193125-08-042602,2008-02-29,814585.0,6351,46,ok,False,False,814585.0,Surety Insurance,ok
+MCD,5812,44,0001193125-08-037220,2008-02-25,63908.0,5812,44,ok,False,False,63908.0,Retail-Eating  Places,ok
+MCHP,3674,37,0000827054-07-000095,2007-05-25,827054.0,3674,37,ok,False,False,827054.0,Semiconductors & Related Devices,ok
+MCK,5122,42,0000950134-07-010894,2007-05-09,927653.0,5122,42,ok,False,False,927653.0,"Wholesale-Drugs, Proprietaries & Druggists' Sundries",ok
+MCO,7320,34,0001193125-08-042583,2008-02-29,1059556.0,7320,34,ok,False,False,1059556.0,"Services-Consumer Credit Reporting, Collection Agencies",ok
+MDLZ,2000,2,0001193125-08-037590,2008-02-25,1103982.0,2000,2,ok,False,False,1103982.0,Food and Kindred Products,ok
+MDP,2721,8,0000065011-07-000112,2007-08-24,65011.0,2721,8,ok,False,False,65011.0,Periodicals: Publishing or  Publishing & Printing,ok
+MDT,3845,12,0001613103-15-000028,2015-06-23,1613103.0,3845,12,ok,False,False,1613103.0,Electromedical & Electrotherapeutic Apparatus,ok
+MEE,1221,29,0000037748-08-000012,2008-02-29,37748.0,1221,29,ok,False,False,37748.0,Bituminous Coal & Lignite Surface Mining,ok
+MET,6311,46,0000950123-08-002274,2008-02-28,1099219.0,6411,46,ok,True,False,1099219.0,Life Insurance,ok
+META,7370,36,0001326801-13-000003,2013-02-01,1326801.0,7370,36,ok,False,False,1326801.0,"Services-Computer Programming, Data Processing, Etc.",ok
+MFE,,,,,,,,,,,,,no_cik
+MGM,7011,44,0000950153-08-000421,2008-02-29,789570.0,7990,7,ok,True,True,789570.0,Hotels & Motels,ok
+MHK,2273,16,0001193125-08-043355,2008-02-29,851968.0,2273,16,ok,False,False,851968.0,Carpets & Rugs,ok
+MHS,5912,43,0000950123-08-001863,2008-02-19,1170650.0,5912,43,ok,False,False,1170650.0,Retail-Drug Stores and Proprietary Stores,ok
+MI,6022,45,0001193125-08-043613,2008-02-29,1399315.0,6022,45,ok,False,False,1399315.0,State Commercial Banks,ok
+MIL,,,,,,,,,,,,,no_cik
+MJN,,,,,,,,,,,,,no_cik
+MKC,2090,2,0001104659-08-005145,2008-01-28,63754.0,2090,2,ok,False,False,63754.0,Miscellaneous Food Preparations & Kindred Products,ok
+MKTX,,,,,,,,,,,,,no_cik
+MLM,1400,28,0000950144-08-001341,2008-02-25,916076.0,1400,28,ok,False,False,916076.0,Mining & Quarrying of  Nonmetallic Minerals (No Fuels),ok
+MMI,,,,,,,,,,,,,no_cik
+MMM,3841,12,0001104659-08-011226,2008-02-15,66740.0,3841,12,ok,False,False,66740.0,Surgical & Medical Instruments & Apparatus,ok
+MNK,2834,13,0001567892-13-000029,2013-12-13,1567892.0,2834,13,ok,False,False,1567892.0,Pharmaceutical Preparations,ok
+MNST,2086,3,0001104659-07-045794,2007-06-06,865752.0,2086,3,ok,False,False,865752.0,Bottled & Canned Soft Drinks & Carbonated Waters,ok
+MO,2111,5,0001193125-08-041586,2008-02-28,764180.0,2100,5,ok,True,False,764180.0,Cigarettes,ok
+MOH,6324,46,0000892569-08-000330,2008-03-17,1179929.0,6324,46,ok,False,False,1179929.0,Hospital & Medical Service Plans,ok
+MOLX,3678,37,0000950137-07-011213,2007-08-03,67472.0,3678,37,ok,False,False,67472.0,Electronic Connectors,ok
+MON,2870,14,0000950137-07-016049,2007-10-26,1110783.0,2870,14,ok,False,False,1110783.0,Agricultural Chemicals,ok
+MOS,2870,14,0001193125-07-177117,2007-08-09,1285785.0,2870,14,ok,False,False,1285785.0,Agricultural Chemicals,ok
+MPC,2911,30,0001193125-12-088690,2012-02-29,1510295.0,2911,30,ok,False,False,1510295.0,Petroleum Refining,ok
+MPWR,3674,37,0001193125-08-052915,2008-03-11,1280452.0,3674,37,ok,False,False,1280452.0,Semiconductors & Related Devices,ok
+MRK,2834,13,0000950123-08-002339,2008-02-29,310158.0,2834,13,ok,False,False,310158.0,Pharmaceutical Preparations,ok
+MRNA,2836,13,0001682852-19-000009,2019-03-13,1682852.0,2836,13,ok,False,False,1682852.0,"Biological Products, (No Diagnostic Substances)",ok
+MRO,1311,30,0001193125-08-043692,2008-02-29,101778.0,2911,30,ok,True,False,101778.0,Crude Petroleum & Natural Gas,ok
+MRSH,6411,46,0001193125-08-043337,2008-02-29,62709.0,6411,46,ok,False,False,62709.0,"Insurance Agents, Brokers & Service",ok
+MRVL,3674,37,0001835632-22-000016,2022-03-10,1835632.0,3674,37,ok,False,False,1835632.0,Semiconductors & Related Devices,ok
+MS,6211,48,0001193125-08-013719,2008-01-29,895421.0,6211,48,ok,False,False,895421.0,"Security Brokers, Dealers & Flotation Companies",ok
+MSCI,7389,34,0001193125-08-040715,2008-02-28,1408198.0,2721,8,ok,True,True,1408198.0,"Services-Business Services, NEC",ok
+MSFT,7372,36,0001193125-07-170817,2007-08-03,789019.0,7372,36,ok,False,False,789019.0,Services-Prepackaged Software,ok
+MSI,3663,37,0000950137-08-002935,2008-02-28,68505.0,3663,37,ok,False,False,68505.0,Radio & Tv Broadcasting & Communications Equipment,ok
+MTB,6022,45,0000950152-08-001291,2008-02-21,36270.0,6022,45,ok,False,False,36270.0,State Commercial Banks,ok
+MTCH,,,,,,,,,,,,,no_cik
+MTD,3826,38,0000950152-08-001167,2008-02-15,1037646.0,3826,38,ok,False,False,1037646.0,Laboratory Analytical Instruments,ok
+MU,3674,37,0000723125-07-000108,2007-10-26,723125.0,3674,37,ok,False,False,723125.0,Semiconductors & Related Devices,ok
+MUR,1311,30,0001193125-08-043756,2008-02-29,717423.0,2911,30,ok,True,False,717423.0,Crude Petroleum & Natural Gas,ok
+MWW,7363,34,0001047469-08-001550,2008-02-21,1020416.0,7311,34,ok,True,False,1020416.0,Services-Help Supply Services,ok
+MXIM,3674,37,0001193125-08-203936,2008-09-30,743316.0,3674,37,ok,False,False,743316.0,Semiconductors & Related Devices,ok
+NAVI,6211,48,0001193125-15-070145,2015-02-27,1593538.0,6211,48,ok,False,False,1593538.0,"Security Brokers, Dealers & Flotation Companies",ok
+NBL,1311,30,0000072207-08-000002,2008-02-27,72207.0,1311,30,ok,False,False,72207.0,Crude Petroleum & Natural Gas,ok
+NBR,1381,30,0000950129-08-001323,2008-02-28,1163739.0,1381,30,ok,False,False,1163739.0,Drilling Oil & Gas Wells,ok
+NCLH,4400,41,0001193125-13-067341,2013-02-20,1513761.0,4400,41,ok,False,False,1513761.0,Water Transportation,ok
+NCR,3578,35,0001193125-08-043581,2008-02-29,70866.0,3578,35,ok,False,False,70866.0,Calculating & Accounting Machines (No Electronic Computers),ok
+NDAQ,6200,48,0001193125-08-037364,2008-02-25,1120193.0,6200,48,ok,False,False,1120193.0,"Security & Commodity Brokers, Dealers, Exchanges & Services",ok
+NDSN,3569,21,0000950152-07-009783,2007-12-21,72331.0,3569,21,ok,False,False,72331.0,"General Industrial Machinery & Equipment, NEC",ok
+NE,,,,,,,,,,,,,no_cik
+NEE,4911,31,0000753308-08-000003,2008-02-28,753308.0,4911,31,ok,False,False,753308.0,Electric Services,ok
+NEM,1040,27,0001193125-08-035169,2008-02-21,1164727.0,1040,27,ok,False,False,1164727.0,Gold and Silver Ores,ok
+NFLX,7841,7,0001193125-08-040378,2008-02-28,1065280.0,7841,7,ok,False,False,1065280.0,Services-Video Tape Rental,ok
+NFX,1311,30,0000950129-08-001379,2008-02-29,912750.0,1311,30,ok,False,False,912750.0,Crude Petroleum & Natural Gas,ok
+NI,4931,31,0000950137-08-003307,2008-03-05,1111711.0,4931,31,ok,False,False,1111711.0,Electric & Other Services Combined,ok
+NKE,3021,10,0001193125-07-164166,2007-07-27,320187.0,3021,10,ok,False,False,320187.0,Rubber & Plastics Footwear,ok
+NKTR,2834,13,0001193125-08-043391,2008-02-29,906709.0,2834,13,ok,False,False,906709.0,Pharmaceutical Preparations,ok
+NLSN,7389,34,0001193125-11-051229,2011-03-01,1492633.0,7389,34,ok,False,False,1492633.0,"Services-Business Services, NEC",ok
+NOC,3812,37,0000950124-08-000713,2008-02-20,1133421.0,3812,37,ok,False,False,1133421.0,"Search, Detection, Navigation, Guidance, Aeronautical Sys",ok
+NOV,3533,21,0000950129-08-001367,2008-02-29,1021860.0,3533,21,ok,False,False,1021860.0,Oil & Gas Field Machinery & Equipment,ok
+NOVL,7372,36,0000950134-07-012375,2007-05-25,758004.0,7372,36,ok,False,False,758004.0,Services-Prepackaged Software,ok
+NOW,7372,36,0001373715-13-000004,2013-03-08,1373715.0,7372,36,ok,False,False,1373715.0,Services-Prepackaged Software,ok
+NRG,4911,31,0000950123-08-002271,2008-02-28,1013871.0,4911,31,ok,False,False,1013871.0,Electric Services,ok
+NSC,4011,41,0000702165-08-000047,2008-02-15,702165.0,4011,41,ok,False,False,702165.0,"Railroads, Line-Haul Operating",ok
+NSM,3674,37,0000070530-07-000053,2007-07-26,70530.0,3674,37,ok,False,False,70530.0,Semiconductors & Related Devices,ok
+NTAP,3572,35,0000950134-07-014094,2007-06-26,1002047.0,3572,35,ok,False,False,1002047.0,Computer Storage Devices,ok
+NTRS,6022,45,0001193125-08-041690,2008-02-28,73124.0,6022,45,ok,False,False,73124.0,State Commercial Banks,ok
+NUE,3312,19,0001193125-08-039702,2008-02-27,73309.0,3312,19,ok,False,False,73309.0,"Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",ok
+NVDA,3674,37,0001045810-08-000011,2008-03-21,1045810.0,3674,37,ok,False,False,1045810.0,Semiconductors & Related Devices,ok
+NVLS,3559,21,0000950134-08-003837,2008-02-29,836106.0,3559,21,ok,False,False,836106.0,"Special Industry Machinery, NEC",ok
+NVR,1531,18,0000950133-08-000733,2008-02-22,906163.0,1531,18,ok,False,False,906163.0,Operative Builders,ok
+NWL,3089,15,0000950137-08-003094,2008-02-29,814453.0,3089,15,ok,False,False,814453.0,"Plastics Products, NEC",ok
+NWS,2711,8,0001193125-13-373501,2013-09-20,1564708.0,2711,8,ok,False,False,1564708.0,Newspapers: Publishing or  Publishing & Printing,ok
+NWSA,2711,8,0001193125-13-373501,2013-09-20,1564708.0,2711,8,ok,False,False,1564708.0,Newspapers: Publishing or  Publishing & Printing,ok
+NXPI,3674,37,0001413447-20-000009,2020-02-27,1413447.0,3674,37,ok,False,False,1413447.0,Semiconductors & Related Devices,ok
+NYT,2711,8,0001104659-08-012938,2008-02-26,71691.0,2711,8,ok,False,False,71691.0,Newspapers: Publishing or  Publishing & Printing,ok
+NYX,6200,48,0001193125-08-064701,2008-03-25,1368007.0,6200,48,ok,False,False,1368007.0,"Security & Commodity Brokers, Dealers, Exchanges & Services",ok
+O,6798,48,0001140361-08-004298,2008-02-15,726728.0,6798,48,ok,False,False,726728.0,Real Estate Investment Trusts,ok
+ODFL,4213,41,0001193125-08-043137,2008-02-29,878927.0,4213,41,ok,False,False,878927.0,Trucking (No Local),ok
+ODP,5940,43,0000950144-08-001365,2008-02-26,800240.0,5940,43,ok,False,False,800240.0,Retail-Miscellaneous Shopping Goods Stores,ok
+OGN,2834,13,0001821825-22-000002,2022-03-21,1821825.0,2834,13,ok,False,False,1821825.0,Pharmaceutical Preparations,ok
+OI,3221,40,0001104659-08-014206,2008-02-29,812074.0,3221,40,ok,False,False,812074.0,Glass Containers,ok
+OKE,4923,31,0001193125-08-040037,2008-02-27,1039684.0,4923,31,ok,False,False,1039684.0,Natural Gas Transmisison & Distribution,ok
+OMC,7311,34,0000891092-08-001149,2008-02-22,29989.0,7311,34,ok,False,False,29989.0,Services-Advertising Agencies,ok
+OMX,5110,42,0001047469-08-001812,2008-02-27,12978.0,5110,42,ok,False,False,12978.0,Wholesale-Paper & Paper Products,ok
+ON,3674,37,0001193125-08-026462,2008-02-12,1097864.0,3674,37,ok,False,False,1097864.0,Semiconductors & Related Devices,ok
+ORCL,7372,36,0000950134-07-014478,2007-06-29,1341439.0,7372,36,ok,False,False,1341439.0,Services-Prepackaged Software,ok
+ORLY,5531,43,0000898173-08-000015,2008-03-03,898173.0,5531,43,ok,False,False,898173.0,Retail-Auto & Home Supply Stores,ok
+OTIS,3600,22,0001781335-21-000023,2021-02-05,1781335.0,3600,22,ok,False,False,1781335.0,Electronic & Other Electrical Equipment (No Computer Equip),ok
+OXY,1311,30,0000797468-08-000026,2008-02-22,797468.0,1311,30,ok,False,False,797468.0,Crude Petroleum & Natural Gas,ok
+PANW,3577,35,0001193125-12-415530,2012-10-04,1327567.0,3577,35,ok,False,False,1327567.0,"Computer Peripheral Equipment, NEC",ok
+PAYC,,,,,,,,,,,,,no_cik
+PAYX,8700,34,0000950152-07-005944,2007-07-20,723531.0,8700,34,ok,False,False,723531.0,"Services-Engineering, Accounting, Research, Management",ok
+PBCT,6035,45,0001193125-07-080878,2007-04-13,1378946.0,6035,45,ok,False,False,1378946.0,"Savings Institution, Federally Chartered",ok
+PBI,3579,35,0000930413-08-001359,2008-02-29,78814.0,3579,35,ok,False,False,78814.0,"Office Machines, NEC",ok
+PCAR,3711,23,0001104659-08-013201,2008-02-27,75362.0,3711,23,ok,False,False,75362.0,Motor Vehicles & Passenger Car Bodies,ok
+PCG,4931,31,0001004980-08-000054,2008-02-22,1004980.0,4931,31,ok,False,False,1004980.0,Electric & Other Services Combined,ok
+PCL,6798,48,0001193125-08-042007,2008-02-28,849213.0,6798,48,ok,False,False,849213.0,Real Estate Investment Trusts,ok
+PCP,3320,19,0001193125-07-127000,2007-05-31,79958.0,3320,19,ok,False,False,79958.0,Iron & Steel Foundries,ok
+PCS,,,,,,,,,,,,,no_cik
+PDCO,5047,42,0001193125-07-144264,2007-06-27,891024.0,5047,42,ok,False,False,891024.0,"Wholesale-Medical, Dental & Hospital Equipment & Supplies",ok
+PEG,4931,31,0000930413-08-001260,2008-02-28,788784.0,4931,31,ok,False,False,788784.0,Electric & Other Services Combined,ok
+PENN,7011,44,0001047469-08-002032,2008-02-29,921738.0,7990,7,ok,True,True,921738.0,Hotels & Motels,ok
+PEP,2080,4,0001193125-08-032441,2008-02-15,77476.0,2080,4,ok,False,False,77476.0,Beverages,ok
+PETM,5990,43,0000950153-08-000613,2008-03-31,863157.0,5990,43,ok,False,False,863157.0,"Retail-Retail Stores, NEC",ok
+PFE,2834,13,0000930413-08-001360,2008-02-29,78003.0,2834,13,ok,False,False,78003.0,Pharmaceutical Preparations,ok
+PFG,6321,46,0001047469-08-001808,2008-02-27,1126328.0,6321,46,ok,False,False,1126328.0,Accident & Health Insurance,ok
+PG,2840,9,0000950152-07-007152,2007-08-28,80424.0,2840,9,ok,False,False,80424.0,"Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",ok
+PGN,4911,31,0001094093-08-000027,2008-02-28,1094093.0,4911,31,ok,False,False,1094093.0,Electric Services,ok
+PGR,6331,46,0000950152-08-001442,2008-02-27,80661.0,6331,46,ok,False,False,80661.0,"Fire, Marine & Casualty Insurance",ok
+PH,3490,17,0001193125-07-191627,2007-08-29,76334.0,3490,17,ok,False,False,76334.0,Miscellaneous Fabricated Metal Products,ok
+PHM,1531,18,0000950124-08-000805,2008-02-25,822416.0,1531,18,ok,False,False,822416.0,Operative Builders,ok
+PKG,2650,40,0001047469-08-001511,2008-02-20,75677.0,2650,40,ok,False,False,75677.0,Paperboard Containers & Boxes,ok
+PLD,6798,48,0000950134-08-003745,2008-02-29,1045609.0,6798,48,ok,False,False,1045609.0,Real Estate Investment Trusts,ok
+PLL,3569,21,0000950123-08-003523,2008-03-28,75829.0,3569,21,ok,False,False,75829.0,"General Industrial Machinery & Equipment, NEC",ok
+PLTR,7372,36,0001193125-21-060650,2021-02-26,1321655.0,7372,36,ok,False,False,1321655.0,Services-Prepackaged Software,ok
+PM,2111,5,0001193125-09-038765,2009-02-26,1413329.0,2111,5,ok,False,False,1413329.0,Cigarettes,ok
+PNC,6021,45,0001193125-08-043429,2008-02-29,713676.0,6021,45,ok,False,False,713676.0,National Commercial Banks,ok
+PNR,3550,21,0000950137-08-002776,2008-02-26,77360.0,3550,21,ok,False,False,77360.0,Special Industry Machinery (No Metalworking Machinery),ok
+PNW,4911,31,0000950153-08-000407,2008-02-27,764622.0,4911,31,ok,False,False,764622.0,Electric Services,ok
+PODD,3841,12,0000950135-08-001892,2008-03-20,1145197.0,3841,12,ok,False,False,1145197.0,Surgical & Medical Instruments & Apparatus,ok
+POM,4931,31,0001135971-08-000035,2008-02-29,1135971.0,4931,31,ok,False,False,1135971.0,Electric & Other Services Combined,ok
+POOL,5090,42,0000945841-08-000016,2008-02-29,945841.0,5090,42,ok,False,False,945841.0,Wholesale-Misc Durable Goods,ok
+PPG,2851,14,0001193125-08-035206,2008-02-21,79879.0,2851,14,ok,False,False,79879.0,"Paints, Varnishes, Lacquers, Enamels & Allied Prods",ok
+PPL,4911,31,0000922224-08-000013,2008-02-29,922224.0,4911,31,ok,False,False,922224.0,Electric Services,ok
+PRGO,,,,,,,,,,,,,no_cik
+PRU,6311,46,0001193125-08-040213,2008-02-27,1137774.0,6311,46,ok,False,False,1137774.0,Life Insurance,ok
+PSA,6798,48,0001393311-08-000023,2008-02-29,1393311.0,6798,48,ok,False,False,1393311.0,Real Estate Investment Trusts,ok
+PSKY,4833,32,0002041610-26-000011,2026-02-25,2041610.0,4833,32,ok,False,False,2041610.0,Television Broadcasting Stations,ok
+PSX,2911,30,0001534701-13-000006,2013-02-22,1534701.0,2911,30,ok,False,False,1534701.0,Petroleum Refining,ok
+PTC,7372,36,0000950135-07-007240,2007-11-29,857005.0,7372,36,ok,False,False,857005.0,Services-Prepackaged Software,ok
+PTV,2673,39,0000950137-08-002992,2008-02-29,1089976.0,2673,39,ok,False,False,1089976.0,"Plastics, Foil & Coated Paper Bags",ok
+PVH,2320,10,0000078239-07-000011,2007-04-05,78239.0,2320,10,ok,False,False,78239.0,"Men's & Boys' Furnishgs, Work Clothg, & Allied Garments",ok
+PWR,1731,18,0000950129-08-001378,2008-02-29,1050915.0,1731,18,ok,False,False,1050915.0,Electrical Work,ok
+PXD,1311,30,0001038357-08-000005,2008-02-21,1038357.0,1311,30,ok,False,False,1038357.0,Crude Petroleum & Natural Gas,ok
+PYPL,7389,34,0001633917-16-000113,2016-02-11,1633917.0,7389,34,ok,False,False,1633917.0,"Services-Business Services, NEC",ok
+Q,3674,37,0002058873-26-000010,2026-02-26,2058873.0,3674,37,ok,False,False,2058873.0,Semiconductors & Related Devices,ok
+QCOM,3663,37,0000936392-07-000836,2007-11-08,804328.0,3663,37,ok,False,False,804328.0,Radio & Tv Broadcasting & Communications Equipment,ok
+QEP,1311,30,0001108827-08-000009,2008-02-27,1108827.0,1311,30,ok,False,False,1108827.0,Crude Petroleum & Natural Gas,ok
+QRVO,3674,37,0001604778-15-000051,2015-05-27,1604778.0,3674,37,ok,False,False,1604778.0,Semiconductors & Related Devices,ok
+QTRN,,,,,,,,,,,,,no_cik
+R,7510,33,0000950144-08-000905,2008-02-12,85961.0,7510,33,ok,False,False,85961.0,Services-Auto Rental & Leasing (No Drivers),ok
+RAD,5912,43,0001104659-07-032827,2007-04-30,84129.0,5912,43,ok,False,False,84129.0,Retail-Drug Stores and Proprietary Stores,ok
+RAI,2111,5,0000950144-08-001414,2008-02-27,1275283.0,2111,5,ok,False,False,1275283.0,Cigarettes,ok
+RCL,4400,41,0000884887-08-000067,2008-02-19,884887.0,4400,41,ok,False,False,884887.0,Water Transportation,ok
+RDC,1381,30,0000950129-08-001384,2008-02-29,85408.0,1381,30,ok,False,False,85408.0,Drilling Oil & Gas Wells,ok
+RDDT,7374,34,0001713445-25-000018,2025-02-13,1713445.0,7374,34,ok,False,False,1713445.0,Services-Computer Processing & Data Preparation,ok
+REG,6798,48,0001193125-08-040232,2008-02-27,910606.0,6798,48,ok,False,False,910606.0,Real Estate Investment Trusts,ok
+REGN,2834,13,0000950123-08-002191,2008-02-27,872589.0,2834,13,ok,False,False,872589.0,Pharmaceutical Preparations,ok
+RF,6021,45,0001193125-08-038935,2008-02-27,1281761.0,6021,45,ok,False,False,1281761.0,National Commercial Banks,ok
+RHI,7363,34,0001193125-08-034558,2008-02-20,315213.0,7363,34,ok,False,False,315213.0,Services-Help Supply Services,ok
+RHT,7370,36,0001193125-07-095673,2007-04-30,1087423.0,7370,36,ok,False,False,1087423.0,"Services-Computer Programming, Data Processing, Etc.",ok
+RIG,1381,30,0001451505-09-000022,2009-02-26,1451505.0,1381,30,ok,False,False,1451505.0,Drilling Oil & Gas Wells,ok
+RJF,6211,48,0000720005-07-000143,2007-11-29,720005.0,6211,48,ok,False,False,720005.0,"Security Brokers, Dealers & Flotation Companies",ok
+RL,2320,10,0000950123-07-008115,2007-05-30,1037038.0,2320,10,ok,False,False,1037038.0,"Men's & Boys' Furnishgs, Work Clothg, & Allied Garments",ok
+RMD,3841,12,0001193125-07-190078,2007-08-28,943819.0,3841,12,ok,False,False,943819.0,Surgical & Medical Instruments & Apparatus,ok
+ROK,3829,38,0001193125-07-250273,2007-11-19,1024478.0,3829,38,ok,False,False,1024478.0,"Measuring & Controlling Devices, NEC",ok
+ROL,7340,34,0001047469-08-002054,2008-02-29,84839.0,7340,34,ok,False,False,84839.0,Services-To Dwellings & Other Buildings,ok
+ROP,3823,38,0000882835-08-000008,2008-02-29,882835.0,3823,38,ok,False,False,882835.0,"Industrial Instruments For Measurement, Display, and Control",ok
+ROST,5651,43,0001206774-07-000885,2007-04-03,745732.0,5651,43,ok,False,False,745732.0,Retail-Family Clothing Stores,ok
+RRC,1311,30,0000950134-08-003528,2008-02-27,315852.0,1311,30,ok,False,False,315852.0,Crude Petroleum & Natural Gas,ok
+RRD,,,,,,,,,,,,,no_cik
+RSG,4953,49,0000950144-08-001276,2008-02-21,1060391.0,4953,49,ok,False,False,1060391.0,Refuse Systems,ok
+RSH,5731,43,0000096289-08-000008,2008-02-26,96289.0,5731,43,ok,False,False,96289.0,"Retail-Radio, Tv & Consumer Electronics Stores",ok
+RTN,3812,37,0001193125-08-039853,2008-02-27,1047122.0,3812,37,ok,False,False,1047122.0,"Search, Detection, Navigation, Guidance, Aeronautical Sys",ok
+RTX,3724,24,0001193125-08-022346,2008-02-07,101829.0,3724,24,ok,False,False,101829.0,Aircraft Engines & Engine Parts,ok
+RVTY,3826,38,0001193125-08-041972,2008-02-28,31791.0,3826,38,ok,False,False,31791.0,Laboratory Analytical Instruments,ok
+RX,,,,,,,,,,,,,no_cik
+S,4813,32,0001193125-08-043559,2008-02-29,101830.0,4813,32,ok,False,False,101830.0,Telephone Communications (No Radiotelephone),ok
+SAI,7373,36,0001193125-07-079805,2007-04-12,1336920.0,8700,34,ok,True,True,1336920.0,Services-Computer Integrated Systems Design,ok
+SBAC,6798,48,0001193125-08-040304,2008-02-28,1034054.0,4899,32,ok,True,True,1034054.0,Real Estate Investment Trusts,ok
+SBL,,,,,,,,,,,,,no_cik
+SBNY,,,,,,,,,,,,,no_cik
+SBUX,5810,44,0000950134-07-024667,2007-11-29,829224.0,5810,44,ok,False,False,829224.0,Retail-Eating & Drinking Places,ok
+SCG,4931,31,0000754737-08-000008,2008-02-29,754737.0,4931,31,ok,False,False,754737.0,Electric & Other Services Combined,ok
+SCHW,6211,48,0001193125-08-039024,2008-02-27,316709.0,6211,48,ok,False,False,316709.0,"Security Brokers, Dealers & Flotation Companies",ok
+SE,4923,31,0001193125-07-072404,2007-04-02,1373835.0,4923,31,ok,False,False,1373835.0,Natural Gas Transmisison & Distribution,ok
+SEDG,,,,,,,,,,,,,no_cik
+SEE,2820,14,0001047469-08-002080,2008-02-29,1012100.0,2670,39,ok,True,True,1012100.0,"Plastic Material, Synth Resin/Rubber, Cellulos (No Glass)",ok
+SGP,2834,13,0000950123-08-002339,2008-02-29,310158.0,2834,13,ok,False,False,310158.0,Pharmaceutical Preparations,ok
+SHLD,5311,43,0001193125-08-065062,2008-03-26,1310067.0,5311,43,ok,False,False,1310067.0,Retail-Department Stores,ok
+SHW,5200,43,0000950152-08-001496,2008-02-28,89800.0,5200,43,ok,False,False,89800.0,"Retail-Building Materials, Hardware, Garden Supply",ok
+SIAL,5160,42,0001193125-08-038430,2008-02-26,90185.0,5160,42,ok,False,False,90185.0,Wholesale-Chemicals & Allied Products,ok
+SIG,5944,43,0001193125-10-071072,2010-03-30,832988.0,5944,43,ok,False,False,832988.0,Retail-Jewelry Stores,ok
+SII,3533,21,0000950129-08-001383,2008-02-29,721083.0,3533,21,ok,False,False,721083.0,Oil & Gas Field Machinery & Equipment,ok
+SIVB,6022,45,0001193125-08-043869,2008-02-29,719739.0,6022,45,ok,False,False,719739.0,State Commercial Banks,ok
+SJM,2033,2,0000950152-07-005388,2007-06-26,91419.0,2033,2,ok,False,False,91419.0,"Canned, Fruits, Veg, Preserves, Jams & Jellies",ok
+SLB,1389,30,0001193125-08-029168,2008-02-13,87347.0,1389,30,ok,False,False,87347.0,"Oil & Gas Field Services, NEC",ok
+SLE,2000,2,0001193125-07-191200,2007-08-29,23666.0,2000,2,ok,False,False,23666.0,Food and Kindred Products,ok
+SLG,6798,48,0001104659-08-013434,2008-02-27,1040971.0,6798,48,ok,False,False,1040971.0,Real Estate Investment Trusts,ok
+SLM,6141,45,0000950133-08-000892,2008-02-29,1032033.0,6141,45,ok,False,False,1032033.0,Personal Credit Institutions,ok
+SLR,,,,,,,,,,,,,no_cik
+SMCI,3571,35,0001193125-07-190775,2007-08-28,1375365.0,3571,35,ok,False,False,1375365.0,Electronic Computers,ok
+SMS,,,,,,,,,,,,,no_cik
+SNA,3420,17,0001104659-08-011401,2008-02-19,91440.0,3420,17,ok,False,False,91440.0,"Cutlery, Handtools & General Hardware",ok
+SNDK,3572,35,0002023554-25-000034,2025-08-21,2023554.0,3572,35,ok,False,False,2023554.0,Computer Storage Devices,ok
+SNI,4841,32,0001193125-09-046284,2009-03-05,1430602.0,4841,32,ok,False,False,1430602.0,Cable & Other Pay Television Services,ok
+SNPS,7372,36,0001047469-07-010271,2007-12-21,883241.0,7372,36,ok,False,False,883241.0,Services-Prepackaged Software,ok
+SO,4911,31,0000092122-08-000010,2008-02-25,92122.0,4911,31,ok,False,False,92122.0,Electric Services,ok
+SOLS,2800,14,0002064953-26-000008,2026-02-19,2064953.0,2800,14,ok,False,False,2064953.0,Chemicals & Allied Products,ok
+SOLV,3841,12,0001964738-25-000019,2025-02-28,1964738.0,3841,12,ok,False,False,1964738.0,Surgical & Medical Instruments & Apparatus,ok
+SPG,6798,48,0001047469-08-001745,2008-02-26,1063761.0,6798,48,ok,False,False,1063761.0,Real Estate Investment Trusts,ok
+SPGI,7320,34,0000950123-08-002305,2008-02-29,64040.0,2731,8,ok,True,True,64040.0,"Services-Consumer Credit Reporting, Collection Agencies",ok
+SPLS,5940,43,0001047469-08-002179,2008-03-04,791519.0,5940,43,ok,False,False,791519.0,Retail-Miscellaneous Shopping Goods Stores,ok
+SRCL,4955,49,0001193125-08-043177,2008-02-29,861878.0,4955,49,ok,False,False,861878.0,Hazardous Waste Management,ok
+SRE,4932,31,0000086521-08-000015,2008-02-26,1032208.0,4932,31,ok,False,False,1032208.0,Gas & Other Services Combined,ok
+STE,3842,12,0001757898-19-000005,2019-05-30,1757898.0,3842,12,ok,False,False,1757898.0,"Orthopedic, Prosthetic & Surgical Appliances & Supplies",ok
+STI,6021,45,0001193125-08-034587,2008-02-20,750556.0,6021,45,ok,False,False,750556.0,National Commercial Banks,ok
+STJ,3845,12,0000897101-08-000412,2008-02-27,203077.0,3845,12,ok,False,False,203077.0,Electromedical & Electrotherapeutic Apparatus,ok
+STLD,3312,19,0001047469-08-001824,2008-02-27,1022671.0,3312,19,ok,False,False,1022671.0,"Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",ok
+STR,4923,31,0000751652-08-000012,2008-02-27,751652.0,1311,30,ok,True,True,751652.0,Natural Gas Transmisison & Distribution,ok
+STT,6022,45,0001047469-08-001447,2008-02-15,93751.0,6022,45,ok,False,False,93751.0,State Commercial Banks,ok
+STX,3572,35,0000950134-07-018993,2007-08-27,1137789.0,3572,35,ok,False,False,1137789.0,Computer Storage Devices,ok
+STZ,2080,4,0000016918-07-000041,2007-04-30,16918.0,2080,4,ok,False,False,16918.0,Beverages,ok
+SUN,,,,,,,,,,,,,no_cik
+SVU,5141,42,0001193125-07-090354,2007-04-25,95521.0,5140,42,ok,True,False,95521.0,"Wholesale-Groceries, General Line",ok
+SW,2650,40,0002005951-25-000005,2025-03-07,2005951.0,2650,40,ok,False,False,2005951.0,Paperboard Containers & Boxes,ok
+SWK,3420,17,0000950136-08-000877,2008-02-25,93556.0,3420,17,ok,False,False,93556.0,"Cutlery, Handtools & General Hardware",ok
+SWKS,3674,37,0000892569-07-001468,2007-11-27,4127.0,3674,37,ok,False,False,4127.0,Semiconductors & Related Devices,ok
+SWN,1311,30,0000007332-08-000026,2008-02-28,7332.0,1311,30,ok,False,False,7332.0,Crude Petroleum & Natural Gas,ok
+SWY,5411,43,0001193125-08-038856,2008-02-26,86144.0,5411,43,ok,False,False,86144.0,Retail-Grocery Stores,ok
+SYF,6199,45,0001601712-15-000007,2015-02-23,1601712.0,6199,45,ok,False,False,1601712.0,Finance Services,ok
+SYK,3841,12,0000310764-08-000047,2008-02-28,310764.0,3841,12,ok,False,False,310764.0,Surgical & Medical Instruments & Apparatus,ok
+SYY,5140,42,0000950129-07-004350,2007-08-28,96021.0,5140,42,ok,False,False,96021.0,Wholesale-Groceries & Related Products,ok
+T,4813,32,0000732717-08-000012,2008-02-27,732717.0,4813,32,ok,False,False,732717.0,Telephone Communications (No Radiotelephone),ok
+TAP,2082,4,0001047469-08-001563,2008-02-22,24545.0,2082,4,ok,False,False,24545.0,Malt Beverages,ok
+TDC,7372,36,0001193125-08-045270,2008-03-03,816761.0,3571,35,ok,True,True,816761.0,Services-Prepackaged Software,ok
+TDG,3728,24,0001193125-07-252212,2007-11-21,1260221.0,3728,24,ok,False,False,1260221.0,"Aircraft Parts & Auxiliary Equipment, NEC",ok
+TDY,3812,37,0000950124-08-000940,2008-02-28,1094285.0,8711,34,ok,True,True,1094285.0,"Search, Detection, Navigation, Guidance, Aeronautical Sys",ok
+TE,4911,31,0001193125-08-041825,2008-02-28,350563.0,4911,31,ok,False,False,350563.0,Electric Services,ok
+TECH,2836,13,0000842023-07-000029,2007-08-29,842023.0,2836,13,ok,False,False,842023.0,"Biological Products, (No Diagnostic Substances)",ok
+TEG,4931,31,0000916863-08-000109,2008-02-28,916863.0,4931,31,ok,False,False,916863.0,Electric & Other Services Combined,ok
+TEL,5065,42,0001047469-07-010039,2007-12-14,1385157.0,5065,42,ok,False,False,1385157.0,"Wholesale-Electronic Parts & Equipment, NEC",ok
+TER,3825,38,0001193125-08-041765,2008-02-28,97210.0,3825,38,ok,False,False,97210.0,Instruments For Meas & Testing of  Electricity & Elec Signals,ok
+TFC,6021,45,0001193125-08-041900,2008-02-28,92230.0,6021,45,ok,False,False,92230.0,National Commercial Banks,ok
+TFX,3841,12,0000893220-08-000569,2008-02-29,96943.0,3841,12,ok,False,False,96943.0,Surgical & Medical Instruments & Apparatus,ok
+TGNA,4833,32,0001193125-08-041403,2008-02-28,39899.0,2711,8,ok,True,True,39899.0,Television Broadcasting Stations,ok
+TGT,5331,43,0001047469-08-002681,2008-03-13,27419.0,5331,43,ok,False,False,27419.0,Retail-Variety Stores,ok
+THC,8062,11,0001104659-08-012766,2008-02-26,70318.0,8062,11,ok,False,False,70318.0,"Services-General Medical & Surgical Hospitals, NEC",ok
+TIE,3341,19,0001011657-08-000002,2008-02-29,1011657.0,3341,19,ok,False,False,1011657.0,Secondary Smelting & Refining of  Nonferrous Metals,ok
+TIF,5944,43,0000950123-08-003517,2008-03-28,98246.0,5944,43,ok,False,False,98246.0,Retail-Jewelry Stores,ok
+TJX,5651,43,0000950135-08-001961,2008-03-26,109198.0,5651,43,ok,False,False,109198.0,Retail-Family Clothing Stores,ok
+TKO,7900,7,0001562762-24-000038,2024-02-27,1973266.0,7900,7,ok,False,False,1973266.0,Services-Amusement & Recreation Services,ok
+TLAB,3661,37,0001193125-08-038840,2008-02-26,317771.0,3661,37,ok,False,False,317771.0,Telephone & Telegraph Apparatus,ok
+TMC,,,,,,,,,,,,,no_cik
+TMO,3829,38,0000097745-08-000043,2008-02-29,97745.0,3829,38,ok,False,False,97745.0,"Measuring & Controlling Devices, NEC",ok
+TMUS,4812,32,0000950134-08-003844,2008-02-29,1283699.0,4812,32,ok,False,False,1283699.0,Radiotelephone Communications,ok
+TPL,6792,48,0001811074-21-000013,2021-02-25,1811074.0,6792,48,ok,False,False,1811074.0,Oil Royalty Traders,ok
+TPR,3100,10,0001144204-07-046122,2007-08-23,1116132.0,3100,10,ok,False,False,1116132.0,Leather & Leather Products,ok
+TRB,4833,32,0001104659-08-018845,2008-03-20,726513.0,2711,8,ok,True,True,726513.0,Television Broadcasting Stations,ok
+TRGP,4922,31,0001389170-11-000003,2011-02-28,1389170.0,4922,31,ok,False,False,1389170.0,Natural Gas Transmission,ok
+TRIP,7370,36,0001193125-12-117448,2012-03-15,1526520.0,7370,36,ok,False,False,1526520.0,"Services-Computer Programming, Data Processing, Etc.",ok
+TRMB,3829,38,0001140361-08-005047,2008-02-26,864749.0,3829,38,ok,False,False,864749.0,"Measuring & Controlling Devices, NEC",ok
+TROW,6282,48,0000950133-08-000389,2008-02-07,1113169.0,6200,48,ok,True,False,1113169.0,Investment Advice,ok
+TRV,6331,46,0001047469-08-001551,2008-02-21,86312.0,6331,46,ok,False,False,86312.0,"Fire, Marine & Casualty Insurance",ok
+TSCO,5200,43,0001362310-08-001146,2008-02-27,916365.0,5200,43,ok,False,False,916365.0,"Retail-Building Materials, Hardware, Garden Supply",ok
+TSG,7370,36,0001564590-15-001223,2015-03-03,1597033.0,7370,36,ok,False,False,1597033.0,"Services-Computer Programming, Data Processing, Etc.",ok
+TSLA,3711,23,0001193125-11-054847,2011-03-03,1318605.0,3711,23,ok,False,False,1318605.0,Motor Vehicles & Passenger Car Bodies,ok
+TSN,2015,2,0000100493-07-000102,2007-11-21,100493.0,2015,2,ok,False,False,100493.0,Poultry Slaughtering and Processing,ok
+TSS,,,,,,,,,,,,,no_cik
+TT,3822,38,0001193125-10-043035,2010-02-26,1466258.0,,,no_sic_in_header,,,1466258.0,Auto Controls For Regulating Residential & Comml Environments,ok
+TTD,7370,36,0001193125-17-046742,2017-02-16,1671933.0,7370,36,ok,False,False,1671933.0,"Services-Computer Programming, Data Processing, Etc.",ok
+TTWO,7372,36,0001047469-07-010213,2007-12-20,946581.0,7372,36,ok,False,False,946581.0,Services-Prepackaged Software,ok
+TWC,4841,32,0000950144-08-001292,2008-02-22,1377013.0,4841,32,ok,False,False,1377013.0,Cable & Other Pay Television Services,ok
+TWTR,7370,36,0000950123-14-003031,2014-03-06,1418091.0,7370,36,ok,False,False,1418091.0,"Services-Computer Programming, Data Processing, Etc.",ok
+TWX,4841,32,0000950144-08-001291,2008-02-22,1105705.0,7812,7,ok,True,True,1105705.0,Cable & Other Pay Television Services,ok
+TXN,3674,37,0001193125-08-038572,2008-02-26,97476.0,3674,37,ok,False,False,97476.0,Semiconductors & Related Devices,ok
+TXT,3720,24,0001104659-08-011718,2008-02-20,217346.0,3720,24,ok,False,False,217346.0,Aircraft & Parts,ok
+TYC,,,,,,,,,,,,,no_cik
+TYL,7372,36,0000950134-08-003695,2008-02-28,860731.0,7372,36,ok,False,False,860731.0,Services-Prepackaged Software,ok
+UA,2300,10,0001193125-08-035854,2008-02-22,1336917.0,2300,10,ok,False,False,1336917.0,Apparel & Other Finishd Prods of  Fabrics & Similar Matl,ok
+UAA,2300,10,0001193125-08-035854,2008-02-22,1336917.0,2300,10,ok,False,False,1336917.0,Apparel & Other Finishd Prods of  Fabrics & Similar Matl,ok
+UAL,4512,41,0001047469-08-001951,2008-02-29,100517.0,4512,41,ok,False,False,100517.0,"Air Transportation, Scheduled",ok
+UBER,7389,34,0001543151-20-000010,2020-03-02,1543151.0,7389,34,ok,False,False,1543151.0,"Services-Business Services, NEC",ok
+UDR,6798,48,0000950134-08-003462,2008-02-26,74208.0,6798,48,ok,False,False,74208.0,Real Estate Investment Trusts,ok
+UHS,8062,11,0001193125-08-041955,2008-02-28,352915.0,8062,11,ok,False,False,352915.0,"Services-General Medical & Surgical Hospitals, NEC",ok
+ULTA,5990,43,0000950137-08-005469,2008-04-16,1403568.0,5990,43,ok,False,False,1403568.0,"Retail-Retail Stores, NEC",ok
+UNH,6324,46,0001193125-08-035391,2008-02-21,731766.0,6324,46,ok,False,False,731766.0,Hospital & Medical Service Plans,ok
+UNM,,,,,,,,,,,,,no_cik
+UNP,4011,41,0001193125-08-041700,2008-02-28,100885.0,4011,41,ok,False,False,100885.0,"Railroads, Line-Haul Operating",ok
+UPS,4210,41,0001193125-08-043891,2008-02-29,1090727.0,4210,41,ok,False,False,1090727.0,Trucking & Courier Services (No Air),ok
+URBN,5651,43,0001193125-08-068073,2008-03-28,912615.0,5651,43,ok,False,False,912615.0,Retail-Family Clothing Stores,ok
+URI,7359,34,0001193125-08-042082,2008-02-29,1067701.0,7359,34,ok,False,False,1067701.0,"Services-Equipment Rental & Leasing, NEC",ok
+USB,6021,45,0000950124-08-000806,2008-02-25,36104.0,6021,45,ok,False,False,36104.0,National Commercial Banks,ok
+USL,,,,,,,,,,,,,no_cik
+V,7389,34,0001193125-07-270394,2007-12-21,1403161.0,7389,34,ok,False,False,1403161.0,"Services-Business Services, NEC",ok
+VAR,3845,12,0001193125-07-253260,2007-11-26,203527.0,3845,12,ok,False,False,203527.0,Electromedical & Electrotherapeutic Apparatus,ok
+VEEV,7372,36,0001193125-14-103258,2014-03-18,1393052.0,7372,36,ok,False,False,1393052.0,Services-Prepackaged Software,ok
+VFC,,,,,,,,,,,,,no_cik
+VIAB,4841,32,0001193125-08-042040,2008-02-28,1339947.0,4841,32,ok,False,False,1339947.0,Cable & Other Pay Television Services,ok
+VICI,6798,48,0001705696-18-000015,2018-03-28,1705696.0,6798,48,ok,False,False,1705696.0,Real Estate Investment Trusts,ok
+VLO,2911,30,0000950134-08-003802,2008-02-29,1035002.0,2911,30,ok,False,False,1035002.0,Petroleum Refining,ok
+VLTO,3825,38,0001967680-24-000033,2024-02-28,1967680.0,3825,38,ok,False,False,1967680.0,Instruments For Meas & Testing of  Electricity & Elec Signals,ok
+VMC,1400,28,0000950144-08-001522,2008-02-29,1396009.0,1400,28,ok,False,False,1396009.0,Mining & Quarrying of  Nonmetallic Minerals (No Fuels),ok
+VMRK,6798,48,0001104659-08-013087,2008-02-27,906107.0,6798,48,ok,False,False,906107.0,Real Estate Investment Trusts,ok
+VNO,6798,48,0000899689-08-000003,2008-02-26,899689.0,6798,48,ok,False,False,899689.0,Real Estate Investment Trusts,ok
+VNT,3824,38,0001786842-21-000013,2021-02-25,1786842.0,3824,38,ok,False,False,1786842.0,Totalizing Fluid Meters & Counting Devices,ok
+VRSK,7374,34,0000950123-10-022607,2010-03-09,1442145.0,7374,34,ok,False,False,1442145.0,Services-Computer Processing & Data Preparation,ok
+VRSN,7371,36,0001193125-07-154202,2007-07-12,1014473.0,7371,36,ok,False,False,1014473.0,Services-Computer Programming Services,ok
+VRT,3679,37,0001193125-19-072362,2019-03-13,1674101.0,6770,48,ok,True,True,1674101.0,"Electronic Components, NEC",ok
+VRTX,2834,13,0001047469-08-001101,2008-02-11,875320.0,2834,13,ok,False,False,875320.0,Pharmaceutical Preparations,ok
+VST,4911,31,0001692819-18-000018,2018-02-26,1692819.0,4911,31,ok,False,False,1692819.0,Electric Services,ok
+VTR,6798,48,0001193125-08-042265,2008-02-29,740260.0,6798,48,ok,False,False,740260.0,Real Estate Investment Trusts,ok
+VTRS,2834,13,0001193125-20-136001,2020-05-07,1792044.0,2834,13,ok,False,False,1792044.0,Pharmaceutical Preparations,ok
+VZ,4813,32,0001193125-08-042027,2008-02-28,732712.0,4813,32,ok,False,False,732712.0,Telephone Communications (No Radiotelephone),ok
+WAB,3743,25,0001193125-08-043352,2008-02-29,943452.0,3743,25,ok,False,False,943452.0,Railroad Equipment,ok
+WAT,3826,38,0000950135-08-001339,2008-02-29,1000697.0,3826,38,ok,False,False,1000697.0,Laboratory Analytical Instruments,ok
+WB,,,,,,,,,,,,,no_cik
+WBA,5912,43,0001140361-15-038791,2015-10-28,1618921.0,5912,43,ok,False,False,1618921.0,Retail-Drug Stores and Proprietary Stores,ok
+WBD,4841,32,0000950133-09-000442,2009-02-26,1437107.0,4841,32,ok,False,False,1437107.0,Cable & Other Pay Television Services,ok
+WCG,,,,,,,,,,,,,no_cik
+WDAY,7374,34,0001193125-13-122351,2013-03-22,1327811.0,7374,34,ok,False,False,1327811.0,Services-Computer Processing & Data Preparation,ok
+WDC,3572,35,0000892569-07-001093,2007-08-28,106040.0,3572,35,ok,False,False,106040.0,Computer Storage Devices,ok
+WEC,4931,31,0000107815-08-000059,2008-02-28,783325.0,4931,31,ok,False,False,783325.0,Electric & Other Services Combined,ok
+WELL,6798,48,0000950152-08-001476,2008-02-28,766704.0,6798,48,ok,False,False,766704.0,Real Estate Investment Trusts,ok
+WFC,6021,45,0000950134-08-003822,2008-02-29,72971.0,6021,45,ok,False,False,72971.0,National Commercial Banks,ok
+WFM,5411,43,0001047469-07-009605,2007-11-29,865436.0,5411,43,ok,False,False,865436.0,Retail-Grocery Stores,ok
+WFR,3674,37,0001193125-08-042222,2008-02-29,945436.0,3674,37,ok,False,False,945436.0,Semiconductors & Related Devices,ok
+WHR,3630,9,0001193125-08-036294,2008-02-22,106640.0,3630,9,ok,False,False,106640.0,Household Appliances,ok
+WIN,,,,,,,,,,,,,no_cik
+WLTW,6411,46,0001047469-08-001829,2008-02-27,1140536.0,6411,46,ok,False,False,1140536.0,"Insurance Agents, Brokers & Service",ok
+WM,4953,49,0000950134-08-002947,2008-02-19,823768.0,4953,49,ok,False,False,823768.0,Refuse Systems,ok
+WMB,4922,31,0000950134-08-003448,2008-02-26,107263.0,4922,31,ok,False,False,107263.0,Natural Gas Transmission,ok
+WMT,5331,43,0001193125-08-071085,2008-03-31,104169.0,5331,43,ok,False,False,104169.0,Retail-Variety Stores,ok
+WPX,1311,30,0001193125-12-085305,2012-02-28,1518832.0,1311,30,ok,False,False,1518832.0,Crude Petroleum & Natural Gas,ok
+WRB,6331,46,0000950123-08-002324,2008-02-29,11544.0,6331,46,ok,False,False,11544.0,"Fire, Marine & Casualty Insurance",ok
+WSM,5700,43,0001193125-08-074283,2008-04-03,719955.0,5700,43,ok,False,False,719955.0,"Retail-Home Furniture, Furnishings & Equipment Stores",ok
+WST,3841,12,0001047469-08-002017,2008-02-29,105770.0,3060,15,ok,True,True,105770.0,Surgical & Medical Instruments & Apparatus,ok
+WTW,6411,46,0001047469-08-001829,2008-02-27,1140536.0,6411,46,ok,False,False,1140536.0,"Insurance Agents, Brokers & Service",ok
+WU,7389,34,0001193125-08-038154,2008-02-26,1365135.0,7389,34,ok,False,False,1365135.0,"Services-Business Services, NEC",ok
+WY,6798,48,0001193125-08-042058,2008-02-28,106535.0,2400,17,ok,True,True,106535.0,Real Estate Investment Trusts,ok
+WYN,7011,44,0000950123-08-002361,2008-02-29,1361658.0,7011,44,ok,False,False,1361658.0,Hotels & Motels,ok
+WYNN,7011,44,0001193125-08-036412,2008-02-22,1174922.0,7990,7,ok,True,True,1174922.0,Hotels & Motels,ok
+X,3312,19,0001193125-08-040079,2008-02-27,1163302.0,3312,19,ok,False,False,1163302.0,"Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",ok
+XEC,1311,30,0001047469-08-001923,2008-02-28,1168054.0,1311,30,ok,False,False,1168054.0,Crude Petroleum & Natural Gas,ok
+XEL,4931,31,0001047469-08-001516,2008-02-20,72903.0,4931,31,ok,False,False,72903.0,Electric & Other Services Combined,ok
+XL,6331,46,0000930413-08-001380,2008-02-29,875159.0,6351,46,ok,True,False,875159.0,"Fire, Marine & Casualty Insurance",ok
+XLNX,3674,37,0001206774-07-001475,2007-05-30,743988.0,3674,37,ok,False,False,743988.0,Semiconductors & Related Devices,ok
+XOM,2911,30,0001193125-08-041781,2008-02-28,34088.0,2911,30,ok,False,False,2115436.0,Petroleum Refining,ok
+XRAY,3843,12,0000818479-08-000032,2008-02-25,818479.0,3843,12,ok,False,False,818479.0,Dental Equipment & Supplies,ok
+XRX,3577,35,0001193125-08-032688,2008-02-15,108772.0,3577,35,ok,False,False,108772.0,"Computer Peripheral Equipment, NEC",ok
+XTO,1311,30,0001193125-08-038833,2008-02-26,868809.0,1311,30,ok,False,False,868809.0,Crude Petroleum & Natural Gas,ok
+XYL,3561,21,0001193125-12-084766,2012-02-28,1524472.0,3561,21,ok,False,False,1524472.0,Pumps & Pumping Equipment,ok
+XYZ,7372,36,0001512673-16-000002,2016-03-10,1512673.0,7372,36,ok,False,False,1512673.0,Services-Prepackaged Software,ok
+YHOO,,,0000891618-08-000121,2008-02-27,1011006.0,7373,36,ok,,,1011006.0,,no_sic
+YUM,5812,44,0001041061-08-000092,2008-02-25,1041061.0,5812,44,ok,False,False,1041061.0,Retail-Eating  Places,ok
+ZBH,3842,12,0000950137-08-003099,2008-02-29,1136869.0,3842,12,ok,False,False,1136869.0,"Orthopedic, Prosthetic & Surgical Appliances & Supplies",ok
+ZBRA,3560,21,0001193125-08-043327,2008-02-29,877212.0,3560,21,ok,False,False,877212.0,General Industrial Machinery & Equipment,ok
+ZION,6021,45,0001193125-08-041960,2008-02-28,109380.0,6021,45,ok,False,False,109380.0,National Commercial Banks,ok
+ZTS,2834,13,0001555280-13-000008,2013-03-28,1555280.0,2834,13,ok,False,False,1555280.0,Pharmaceutical Preparations,ok

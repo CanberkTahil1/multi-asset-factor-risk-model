@@ -1,0 +1,61 @@
+# =============================================================================
+# config/cik_overrides.yaml -- predecessor CIKs for re-incorporated registrants.
+#
+# SPEC.md 15.4.3 ruling (ii) (operator, 2026-09-05, W7-P2). SEC's ticker map
+# points at the CURRENT registrant, so a company that re-incorporated under a
+# new CIK maps to a filer with no XBRL history before the holdout boundary and
+# would be `no_facts` -- the by-ticker route's mirror image of the recycled-
+# ticker hazard the exact-name route avoids. This file is the remedy: a HAND
+# table, one row per ticker, naming the predecessor CIK whose cover-page facts
+# are read beside the successor's. No automated second pass by name -- that
+# would re-introduce the ambiguity the exact-name mapping was built to avoid.
+#
+# TWO KINDS OF ROW. A `predecessor_cik` row (ruling (ii)) reads the
+# predecessor's facts beside the successor's. A `treat_as: no_facts` row
+# (W7-P2b ruling 3) removes a filer whose only non-dimensional cover-page fact
+# is ONE CLASS's count from the panel by hand: it is a dual-class filer whose
+# frames happen to carry a per-total-looking number, and it joins the
+# `no_facts` group with the others. No conversion ratio between classes is
+# ever fabricated to keep such a name.
+#
+# HOW TO FILL A ROW. Read both registrants' EDGAR company pages
+# (https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=<cik>) and
+# record the URL each figure was read from and the date on which it was read.
+# `current_cik` must equal what SEC's company_tickers.json maps the ticker to
+# on the pull being built (the loader checks the pairing and refuses a stale
+# row by name); `predecessor_cik` must appear in the cached frames. Nothing
+# here is estimated and nothing may be inferred from a name match.
+#
+# Filled 2026-09-05. One row: Exxon Mobil's 2025 re-incorporation (SPEC.md
+# 15.4.2, row 271).
+# =============================================================================
+
+schema_version: 1
+
+entries:
+  - ticker: XOM
+    # SEC's map on the 2026-09-05 pull: "ExxonMobil Holdings Corp", CIK
+    # 2115436, incorporated in TX. Its first XBRL filings are 2026-07 (8-K,
+    # POSASR), so no in-sample fact exists under it.
+    current_cik: 2115436
+    current_source_url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002115436
+    # "EXXON MOBIL CORP", CIK 34088, incorporated in NJ, SIC 2911, formerly
+    # EXXON CORP through 1999-11-30; 10-Ks filed every February 2017-2026.
+    # Its cover-page facts run 2009-06-30..2026-03-31 in the cached frames.
+    predecessor_cik: 34088
+    predecessor_source_url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000034088&type=10-K
+    date_read: 2026-09-05
+
+  - ticker: BRK-B
+    # SEC's map on the 2026-09-05 pull: "BERKSHIRE HATHAWAY INC", CIK 1067983,
+    # incorporated in DE, SIC 6331; the same CIK also carries BRK-A. Its only
+    # non-dimensional dei:EntityCommonStockSharesOutstanding facts in the
+    # cached frames are four filings 2009-11-06..2011-05-06 at 941,481 to
+    # 1,056,884 shares -- the CLASS A count -- and nothing after 2011; the
+    # panel would forward-fill a Class-A count against the Class-B price for
+    # thirteen years. Per class with a dimension from 2011 on, like Alphabet,
+    # Meta and News Corp (SPEC.md 15.4.1), so it is treated as they are.
+    current_cik: 1067983
+    current_source_url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=10-K
+    treat_as: no_facts
+    date_read: 2026-09-05

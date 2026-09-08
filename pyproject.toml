@@ -1,0 +1,202 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mafrm"
+version = "0.1.0"
+description = "Multi-asset factor risk model with a cost-aware implementation layer"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Canberk Tahil" }]
+requires-python = ">=3.11"
+
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "cvxpy>=1.5",
+    "pyyaml>=6.0",
+    # Highest-churn dependency by a wide margin (CLAUDE.md, code conventions).
+    # yfinance ships breaking changes in patch releases -- 0.2.51 flipped
+    # auto_adjust to True by default and dropped `Adj Close`, silently changing
+    # the meaning of existing code (SPEC.md 3.5). Pinned exactly, not floored.
+    "yfinance==0.2.66",
+    "pandas-datareader>=0.10",
+    # EDGE effective-spread estimator. Ardia, Guidotti & Kroencke (2024),
+    # JFE 161:103916. MIT licensed. SPEC.md 3.4.
+    "bidask>=0.2",
+    # Parquet engine for the data/raw cache (SPEC.md 11).
+    "pyarrow>=16.0",
+    # Reads AQR's .xlsx research workbooks (SPEC.md 3.1). pandas needs an engine
+    # and names this one explicitly in mafrm.data.aqr, so it is a hard dependency
+    # rather than something pandas picks at import time.
+    "openpyxl>=3.1",
+    # Figures in reports/ are committed deliverables (CLAUDE.md: "any generated
+    # figure or table written to reports/ and committed"), and `make report` is
+    # a core target, so the plotting library is a runtime dependency rather than
+    # dev tooling. Used only in *_report.py modules, never on the model path.
+    "matplotlib>=3.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.6",
+    "mypy>=1.11",
+    "nbstripout>=0.7",
+    "types-PyYAML>=6.0",
+    # pandas ships no py.typed marker; mypy --strict on src/ needs these.
+    "pandas-stubs>=2.2",
+    # SPEC.md 7.4's engine reconciliation comparand (W5-P3). MIT (bt 1.2.0 and
+    # its dependency ffn 1.1.5 both carry the OSI MIT classifier, read from the
+    # package metadata before this line was added). Pinned EXACTLY so the
+    # committed comparison table in reports/engine_reconciliation.md is
+    # reproducible against one accounting implementation. Dev extra only: the
+    # engine (mafrm.backtest.engine) imports nothing from it; only the
+    # reconciliation module does, lazily, and says so if it is missing.
+    "bt==1.2.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mafrm"]
+
+# NOTE: there is deliberately no [tool.uv] default-groups here. Dev tooling is a
+# PEP 621 EXTRA (`[project.optional-dependencies].dev`), not a PEP 735
+# dependency-group, and `default-groups` names only the latter -- uv 0.12 rejects
+# the file outright if it points at a group that does not exist, which is how
+# this was found (W1-P5, the first time `uv sync` was ever run here). Every call
+# site passes `--extra dev` explicitly: the Makefile `install` target and both
+# GitHub workflows.
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+# ruff 0.16 formats Python code blocks inside Markdown. SPEC.md is the
+# methodology reference and its code blocks are quoted formulae and interface
+# sketches, not code this project compiles -- reflowing them silently edits the
+# document every other file is written against. Markdown is excluded outright.
+extend-exclude = ["*.md"]
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle
+    "F",    # pyflakes
+    "I",    # isort
+    "UP",   # pyupgrade
+    "B",    # bugbear
+    "SIM",  # simplify
+    "RUF",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501"]
+# Prose inside the generated markdown template; wrapping it to 100 columns would
+# mangle the report rather than the code. The module is templating, not logic.
+"src/mafrm/data/gsw_report.py" = ["E501"]
+# Same reason: hybrid_report.py's markdown template holds table rows built by
+# comprehension, where a line break lands inside a generated table cell.
+"src/mafrm/factors/hybrid_report.py" = ["E501"]
+# Same reason: the cost-calibration report's markdown template holds prose
+# lines and table rows that must stay on one line to render.
+"src/mafrm/costs/calibration_report.py" = ["E501"]
+# Same reason for the capacity report's template (W5-P2).
+"src/mafrm/costs/capacity_report.py" = ["E501"]
+# Same reason for the engine-reconciliation report's template (W5-P3).
+"src/mafrm/backtest/reconciliation_report.py" = ["E501"]
+# Same reason for the optimizer verification report's template (W6-P1).
+"src/mafrm/backtest/verification.py" = ["E501"]
+# Same reason for the experiment-grid report's template (W6-P2).
+"src/mafrm/backtest/grid.py" = ["E501"]
+# Same reason for the W6-P3 report templates: SPEC.md 10's diagnostics, the
+# bands and the re-optimised capacity curve.
+"src/mafrm/backtest/diagnostics.py" = ["E501"]
+"src/mafrm/backtest/bands.py" = ["E501"]
+"src/mafrm/backtest/capacity_curve.py" = ["E501"]
+# Same reason for the equity-universe report's template (W7-P1).
+"src/mafrm/factors/universe_report.py" = ["E501"]
+
+[tool.mypy]
+# CLAUDE.md: mypy on src/, not on tests or notebooks.
+files = ["src"]
+# 3.12 rather than the project's 3.11 floor. numpy 2.5's bundled stubs use PEP
+# 695 `type` statements, which mypy refuses to parse when told to target 3.11 --
+# it fails inside numpy/__init__.pyi before reaching any of our code, on a 3.11
+# and a 3.12 interpreter alike, because this setting governs parsing rather than
+# the running interpreter. Found by creating uv.lock (W1-P5): the locked numpy
+# is 2.5.2 where the unlocked working environment had 2.3.5.
+#
+# This is a TYPE-CHECK target, not a support change: the runtime floor stays
+# 3.11 in `requires-python` and the CI matrix still runs pytest on 3.11. Nothing
+# in src/ uses version-conditional typing, so the two targets check identically.
+# Worth revisiting if 3.11 support is ever dropped or numpy relaxes its stubs.
+python_version = "3.12"
+strict = true
+warn_unreachable = true
+
+[[tool.mypy.overrides]]
+# Neither ships a py.typed marker and no stubs exist. Both are confined to
+# mafrm.data.loaders (CLAUDE.md invariant 1), so the untyped surface is one file.
+module = ["yfinance.*", "pandas_datareader.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+# bidask ships no py.typed marker. It is the authors' own implementation of the
+# EDGE estimator (Ardia, Guidotti & Kroencke 2024) and is deliberately NOT
+# reimplemented here, so the untyped surface is the price of using their numbers
+# rather than a transcription of their paper. Confined to mafrm.costs.spread,
+# which wraps every call in a typed signature.
+module = ["bidask.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+# scipy ships a py.typed marker but no stubs for `scipy.optimize` or
+# `scipy.stats`; `scipy-stubs` is a separate distribution that is not a
+# dependency of this project. Two call sites: `minimize_scalar` in
+# mafrm.factors.statistical, and `chi2.ppf` in mafrm.risk.validation (SPEC.md
+# 6.1's exact interval). Both are wrapped in typed signatures that cast the
+# result, so the untyped surface is two lines. W4-P3 added `scipy.integrate`
+# (`quad`, one call in mafrm.risk.second_order, likewise cast) and
+# mafrm.risk.battery's `scipy.stats` calls, each wrapped the same way.
+module = ["scipy.optimize.*", "scipy.stats.*", "scipy.integrate.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+# cvxpy 1.9 ships a py.typed marker but re-exports its atoms through star imports
+# mypy cannot follow, so every `cp.abs`, `cp.sum_squares`, `cp.power` reads as a
+# missing attribute. Confined to mafrm.backtest.optimizer, which wraps every
+# call in a typed signature and whose numerics are pinned by hand-computed tests
+# rather than by the type checker (W6-P1).
+module = ["cvxpy", "cvxpy.*"]
+follow_imports = "skip"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+# bt and ffn ship no py.typed marker and no stubs exist. bt is the comparand of
+# SPEC.md 7.4's reconciliation and nothing else; the untyped surface is confined
+# to mafrm.backtest.reconciliation, which wraps every call in a typed signature
+# and imports bt lazily because it is a dev extra.
+module = ["bt.*", "ffn.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+# Resolve `mafrm` from src/ directly rather than through the editable install's
+# .pth file. On macOS, uv writes that .pth with the UF_HIDDEN flag set, and
+# CPython >= 3.12 silently SKIPS hidden .pth files -- so `import mafrm` fails
+# while ruff and mypy, which do not need the package importable, stay green.
+# The failure is intermittent because a pytest run re-sets the flag, so the
+# second consecutive `make test` is the one that breaks. Pinning the path here
+# makes the test gate independent of how the package happens to be installed.
+pythonpath = ["src"]
+markers = [
+    # Tests that are permitted to hit the network. Deselected by the fast CI
+    # workflow, which runs with sockets blocked; run weekly by data-contracts.yml.
+    "network: test requires live network access (data-contract tests only)",
+    # Reads the local data cache. Skipped on a clean clone and in the fast CI
+    # workflow, which has no cache; run by the weekly data-contracts workflow.
+    "dataset: test requires a populated data/ cache",
+]

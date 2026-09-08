@@ -1,0 +1,50 @@
+# =============================================================================
+# config/published_market_totals.yaml -- published year-end market totals, for
+# the comparison column of reports/equity_market_cap.md.
+#
+# SPEC.md 15.4.3 ruling (i) asks for the estimation universe's total cap, with
+# and without the consistency screen, "beside the index's published total".
+# The S&P 500's own historical year-end total market value was NOT found in a
+# free, citable form on 2026-09-05 (S&P Dow Jones Indices' factsheet carries
+# the current figure only; the paid terminals carry the history). What was
+# found is the TOTAL US EQUITY MARKET value -- every US-based company listed on
+# the NYSE, Nasdaq and OTCQX -- which is a SUPERSET of the index and therefore
+# an UPPER BOUND on its total, not the index's total. The report labels the
+# column exactly that way. A raw universe total ABOVE this bound is
+# impossible for a correct panel (row 274's falsifier); a screened total below
+# it is consistent, not confirmed.
+#
+# HOW TO FILL A ROW. Read the value from the source page and record the URL
+# and the date read. Values are as displayed, in the stated unit; the code
+# converts. Nothing here is estimated and nothing may be copied from memory.
+#
+# Filled 2026-09-05 from Siblis Research's "Total Market Value of the U.S.
+# Stock Market" table (USD millions).
+# =============================================================================
+
+schema_version: 1
+
+series:
+  label: "Total US equity market value (NYSE + Nasdaq + OTCQX US-based companies) -- an upper bound on the index, not the index's total"
+  source_url: https://siblisresearch.com/data/us-stock-market-value/
+  date_read: 2026-09-05
+  unit: "USD millions"
+  values:
+    "2007-12-31": 19670052.9
+    "2008-12-31": 11461287.6
+    "2009-12-31": 15081511.9
+    "2010-12-31": 17288139.6
+    "2011-12-31": 15645563.9
+    "2012-12-31": 18673959.2
+    "2013-12-31": 24041484.6
+    "2014-12-31": 26338838.9
+    "2015-12-31": 25076923.7
+    "2016-12-31": 27362567.7
+    "2017-12-31": 31774585.4
+    "2018-12-31": 30449359.4
+    "2019-12-31": 33905976.7
+    "2020-12-31": 40736558.2
+    "2021-12-31": 52263018.2
+    "2022-12-31": 40511838.8
+    "2023-12-31": 50781697.5
+    "2024-12-31": 62204752.9

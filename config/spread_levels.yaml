@@ -1,0 +1,144 @@
+# =============================================================================
+# config/spread_levels.yaml -- issuer-disclosed median bid/ask spreads.
+#
+# SPEC.md 3.4.1: the spread LEVEL is permanently not an EDGE output for this
+# sleeve; it comes from the issuer-disclosed 30-day median bid/ask spread per
+# ETF, "point-in-time only, so it enters as a dated static file, committed, not
+# a loader". This is that file. The SHAPE (time variation) comes from EDGE and
+# is combined with this level additively -- see costs.spread_level in
+# config/model.yaml for the rule and its reasons.
+#
+# HOW TO FILL A ROW. Every value is read by hand from the issuer's own fund
+# page (Vanguard: advisors.vanguard.com/investments/bidaskspread; iShares and
+# SPDR: the per-fund page) and recorded with the URL it was read from and the
+# date on which it was read. Values are the FULL bid/ask spread as basis points
+# of price (0.01% = 1bp); the code halves it. Nothing here is estimated, and
+# nothing here may be copied from memory, from
+# costs.flat_spread_assumption_bps, or from an EDGE output -- SPEC.md 3.4.1
+# forbids all three as level sources.
+#
+# A row with `median_spread_bps: null` is a PLACEHOLDER. mafrm.costs.spread_level
+# refuses to build a cost input for that asset, by name, and no default exists.
+# The alternative to a point value is a band, `band_bps: [low, high]`, which the
+# cost model sweeps and reports as a range (the treatment the impact coefficient
+# already gets); a band is only for an asset whose issuer discloses no median,
+# and its bounds must likewise be sourced, never invented.
+#
+# The five curve points (govt_2y/5y/10y/30y, tips_10y) are keyed by the asset id
+# and carry the ticker of their tradable proxy from costs.tradable_proxies; the
+# loader checks the pairing. ANACHRONISM: a 2026 disclosure applied to
+# 2009-2024, the same one SPEC.md 3.4.1 accepted when it made issuer medians the
+# level source. It is reported beside every cost figure.
+#
+# RESOLUTION. Every issuer displays this figure to two decimal places of a
+# percent, so the resolution is 1bp and a reading of 0.00% is a FLOOR (true
+# spread < 0.5bp), not a value. The point values below are transcribed exactly
+# as displayed; the interval each one implies ([0,0.5) for 0.00%, [0.5,1.5) for
+# 0.01%, and so on) is derived in code from `display_resolution_bps`, not
+# hand-written here, so this file stays a faithful transcription of the
+# disclosure. Where an issuer publishes a finer figure elsewhere it is recorded
+# as a comment on the row and used only to narrow the band, never as the level.
+#
+# Filled 2026-09-03. Twelve rows read via the issuer product pages; DBC read by
+# the operator from Invesco's "Fund prices" tab.
+# =============================================================================
+
+schema_version: 1
+
+display_resolution_bps: 1.0
+
+entries:
+  - asset: us_large_equity
+    ticker: SPY
+    source_url: https://www.ssga.com/us/en/intermediary/etfs/spdr-sp-500-etf-trust-spy
+    disclosure_date: 2026-09-02
+    median_spread_bps: 0.0
+    # Floor: "0.00%" displayed, i.e. [0, 0.5)bp under the interval ruling.
+    # A second published figure is recorded beside it and does not enter the
+    # band -- see the note.
+    second_source:
+      url: https://www.ssga.com/library-content/assets/pdf/north-america/spdr-capital-markets-perspectives-spy.pdf
+      value_bps: 0.6
+      note: >-
+        SSGA capital-markets document: ~0.6bp AVERAGE bid-ask spread for
+        calendar 2023. Recorded as a second source, not as the level. It is a
+        mean over a different period against a 30-day median, so it bounds
+        nothing from below; it sits 0.1bp above the display interval's upper
+        end and is consistent with it only in the way a mean exceeds a median.
+
+  - asset: us_small_equity
+    ticker: IWM
+    source_url: https://www.ishares.com/us/products/239710/ishares-russell-2000-etf
+    disclosure_date: 2026-09-02
+    median_spread_bps: 0.0
+    # Floor.
+
+  - asset: dev_ex_us_equity
+    ticker: EFA
+    source_url: https://www.ishares.com/us/products/239623/ishares-msci-eafe-etf
+    disclosure_date: 2026-09-02
+    median_spread_bps: 1.0
+
+  - asset: em_equity
+    ticker: EEM
+    source_url: https://www.ishares.com/us/products/239637/ishares-msci-emerging-markets-etf
+    disclosure_date: 2026-09-01
+    median_spread_bps: 2.0
+
+  - asset: govt_2y
+    ticker: SHY
+    source_url: https://www.ishares.com/us/products/239452/ishares-13-year-treasury-bond-etf
+    disclosure_date: 2026-09-02
+    median_spread_bps: 1.0
+
+  - asset: govt_5y
+    ticker: IEI
+    source_url: https://www.ishares.com/us/products/239455/ishares-37-year-treasury-bond-etf
+    disclosure_date: 2026-09-02
+    median_spread_bps: 1.0
+
+  - asset: govt_10y
+    ticker: IEF
+    source_url: https://www.ishares.com/us/products/239456/ishares-710-year-treasury-bond-etf
+    disclosure_date: 2026-09-01
+    median_spread_bps: 1.0
+
+  - asset: govt_30y
+    ticker: TLT
+    source_url: https://www.ishares.com/us/products/239454/ishares-20-year-treasury-bond-etf
+    disclosure_date: 2026-09-01
+    median_spread_bps: 1.0
+    # Proxy caveat: TLT's duration is roughly half a 30y zero's, so this is the
+    # cost of trading about half the exposure the risk model priced.
+
+  - asset: tips_10y
+    ticker: TIP
+    source_url: https://www.ishares.com/us/products/239467/ishares-tips-bond-etf
+    disclosure_date: 2026-09-02
+    median_spread_bps: 1.0
+
+  - asset: ig_credit
+    ticker: LQD
+    source_url: https://www.ishares.com/us/products/239566/ishares-iboxx-investment-grade-corporate-bond-etf
+    disclosure_date: 2026-09-01
+    median_spread_bps: 1.0
+
+  - asset: hy_credit
+    ticker: HYG
+    source_url: https://www.ishares.com/us/products/239565/ishares-iboxx-high-yield-corporate-bond-etf
+    disclosure_date: 2026-09-02
+    median_spread_bps: 1.0
+
+  - asset: commodity
+    ticker: DBC
+    source_url: https://www.invesco.com/us/en/financial-products/etfs/invesco-db-commodity-index-tracking-fund.html
+    disclosure_date: 2026-09-02
+    median_spread_bps: 3.0
+    # Read from the "Fund prices" tab, "Median bid/ask spread". Widest in the
+    # universe, on ~$27M/day of volume (30-day avg 835,922 shares at ~$31.93).
+
+  - asset: gold
+    ticker: GLD
+    source_url: https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-shares-gld
+    disclosure_date: 2026-09-03
+    median_spread_bps: 1.0

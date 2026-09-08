@@ -1,0 +1,60 @@
+# Fast CI: runs on every push, against committed fixtures, with no network.
+# The point is that a clean clone is green without ever reaching a data vendor.
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Set up Python ${{ matrix.python-version }}
+        run: uv python install ${{ matrix.python-version }}
+
+      - name: Install project
+        run: uv sync --extra dev --python ${{ matrix.python-version }}
+
+      - name: ruff
+        run: |
+          uv run ruff check --output-format=github .
+          uv run ruff format --check .
+
+      # CLAUDE.md: mypy on src/, not on tests or notebooks. Paths from pyproject.
+      - name: mypy
+        run: uv run mypy
+
+      # Deselects both data-contract markers: `network` (the only tests allowed
+      # to fetch) and `dataset` (which read data/raw, gitignored and absent on a
+      # clean clone). Both run weekly in data-contracts.yml instead. The autouse
+      # guard in tests/conftest.py additionally blocks any socket opened by an
+      # unmarked test, so this is belt and braces, not a promise.
+      - name: pytest (network disabled, no cache)
+        run: |
+          uv run pytest -m "not network and not dataset" \
+            --cov=mafrm --cov-report=term-missing --cov-report=xml \
+            || [ $? -eq 5 ]
+
+      - name: Config parses
+        run: uv run python -c "from mafrm.config import load; print(load())"

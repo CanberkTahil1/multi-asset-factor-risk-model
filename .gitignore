@@ -1,0 +1,59 @@
+# ---------------------------------------------------------------------------
+# Data
+# ---------------------------------------------------------------------------
+# Invariant 8: never commit third-party raw data. AQR and Ken French have no
+# explicit redistribution licence, ICE data forbids reproduction, and JST is
+# CC BY-NC-SA. The cache is reproducible from the manifest; the data is not ours
+# to redistribute.
+data/raw/
+data/processed/
+
+# ...but the manifest IS committed. It is the provenance record (URL, timestamp,
+# SHA-256, row count, date range) that makes `make verify` possible and makes the
+# uncommitted cache reproducible by someone else. Negated explicitly because the
+# rules above would otherwise be free to swallow it if the layout ever moves.
+!data/manifest.json
+
+# ---------------------------------------------------------------------------
+# Secrets
+# ---------------------------------------------------------------------------
+# Real secrets live here and never in source. .env.example is committed instead.
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# ---------------------------------------------------------------------------
+# Tooling caches
+# ---------------------------------------------------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------------------------------------------------------------------------
+# Notebooks
+# ---------------------------------------------------------------------------
+# nbstripout handles committed notebooks; checkpoints are pure noise.
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ---------------------------------------------------------------------------
+# OS / editor / tooling
+# ---------------------------------------------------------------------------
+.DS_Store
+
+# Machine-local Claude Code permission state. CLAUDE.md itself is committed.
+.claude/settings.local.json
